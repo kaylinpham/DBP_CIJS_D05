@@ -12,7 +12,7 @@ function distanceToNearestVowel(str) {
     if (vowelIndex.indexOf(i) === -1) {
       let min = Math.abs(i - vowelIndex[0]);
       for (let j = 1; j < vowelIndex.length; j++) {
-        let distance = i - vowelIndex[j];
+        let distance = Math.abs(i - vowelIndex[j]);
         min = distance < min ? distance : min;
       }
       arr[i] = min;
