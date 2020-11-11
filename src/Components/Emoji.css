@@ -1,0 +1,12 @@
+.emoji {
+    font-size: 17px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: 1%;
+}
+.emoji span{
+    font-size: 45px;
+    margin:0 2%;
+}

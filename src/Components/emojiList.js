@@ -1,4 +1,4 @@
-[
+export const emojiList=[
   {
     "title": "100",
     "symbol": "💯",

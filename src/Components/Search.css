@@ -1,3 +1,10 @@
 #search__bar{
-    width: 400px;
+    width: 90%;
+    margin: 0 5%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 100%;
+    background-color: rgb(248, 241, 241,0.5);
+    box-sizing: border-box;
 }
