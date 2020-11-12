@@ -6,18 +6,22 @@ import Emojis from "./Emojis";
 class Search extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { searchText: "", list: [] };
+    this.state = { searchText: "", list: this.initialList() };
     this.changeInput = this.changeInput.bind(this);
+  }
+  initialList() {
+    let initial = [];
+    emojiList.map((value) => {
+      initial.push(<Emoji sympol={value.symbol} title={value.title} />);
+    });
+    return initial;
   }
   changeInput(e) {
     this.setState({ searchText: e.target.value });
     let listEmoji = [];
-    let filteredList = emojiList.filter(
-      (c) => c.title.toLowerCase().includes(this.state.searchText.toLowerCase())
+    let filteredList = emojiList.filter((c) =>
+      c.title.toLowerCase().includes(this.state.searchText.toLowerCase())
     );
-    if(this.state.searchText===""){
-      filteredList=emojiList;
-    }
     filteredList.map((value) => {
       listEmoji.push(<Emoji sympol={value.symbol} title={value.title} />);
     });
