@@ -4,7 +4,8 @@ body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(http://coderkube.com/wp-content/uploads/2017/08/filter-bg.jpg);
+  background-image: url(./Components/img/farewell_by_neytirix_ddl6d9g.jpg);
+  background-size: 100vw;
 }
 
 code {

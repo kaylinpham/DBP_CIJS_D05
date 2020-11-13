@@ -1,6 +1,6 @@
 .emoji {
     font-size: 17px;
-    background-color: white;
+    background-color: rgb(255, 255, 255,0.9);
     border-radius: 5px;
     display: flex;
     align-items: center;

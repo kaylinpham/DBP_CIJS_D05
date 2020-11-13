@@ -6,7 +6,7 @@ class Header extends React.Component {
   render() {
     return (
       <div style={{textAlign:"center"}}>
-        <h1>😺 Emoji Search 😸</h1>
+        <h1 style={{color:"white"}}>😺 Emoji Search 😸</h1>
       </div>
     );
   }
