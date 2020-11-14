@@ -18,14 +18,16 @@ class Search extends React.Component {
   }
   changeInput(e) {
     this.setState({ searchText: e.target.value });
-    let listEmoji = [];
-    let filteredList = emojiList.filter((c) =>
-      c.title.toLowerCase().includes(this.state.searchText.toLowerCase())
-    );
-    filteredList.map((value) => {
-      listEmoji.push(<Emoji sympol={value.symbol} title={value.title} />);
-    });
-    this.setState({ list: listEmoji });
+    setTimeout(() => {
+      let listEmoji = [];
+      let filteredList = emojiList.filter((c) =>
+        c.title.toLowerCase().includes(this.state.searchText.toLowerCase())
+      );
+      filteredList.map((value) => {
+        listEmoji.push(<Emoji sympol={value.symbol} title={value.title} />);
+      });
+      this.setState({ list: listEmoji });
+    }, 0);
   }
   render() {
     return (
