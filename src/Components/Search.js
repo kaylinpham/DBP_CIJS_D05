@@ -3,6 +3,17 @@ import { emojiList } from "./emojiList";
 import "./Search.css";
 import Emoji from "./Emoji";
 import Emojis from "./Emojis";
+import firebase from "firebase/app";
+import "firebase/auth";
+import "firebase/firestore";
+import { firebaseConfig } from "../config/firebase.config";
+try{
+  firebase.initializeApp(firebaseConfig);
+}catch(e){
+  console.log(e.message);
+}
+
+const db = firebase.firestore();
 class Search extends React.Component {
   constructor(props) {
     super(props);
@@ -28,6 +39,27 @@ class Search extends React.Component {
       });
       this.setState({ list: listEmoji });
     }, 0);
+  }
+  componentDidMount() {
+    // Add a second document with a generated ID.
+    // db.collection("users")
+    //   .add({
+    //     first: "Alan",
+    //     middle: "Mathison",
+    //     last: "Turing",
+    //     born: 1912,
+    //   })
+    //   .then(function (docRef) {
+    //     console.log("Document written with ID: ", docRef.id);
+    //   })
+    //   .catch(function (error) {
+    //     console.error("Error adding document: ", error);
+    //   });
+    db.collection("users").get().then((querySnapshot) => {
+      querySnapshot.forEach((doc) => {
+          console.log(`${doc.id} => ${JSON.stringify(doc.data())}`);
+      });
+  });
   }
   render() {
     return (
