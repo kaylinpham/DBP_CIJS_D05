@@ -1,0 +1,39 @@
+.wrapper__result {
+  border-bottom: 1px solid #ad9c87;
+  padding: 10px;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  width: 99%;
+}
+.items__result {
+  cursor: pointer;
+  display: inline-block;
+  width: 95%;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+.items__resultDone {
+  cursor: pointer;
+  display: inline-block;
+  width: 95%;
+  box-sizing: border-box;
+  text-decoration: line-through;
+  color: #ad9c87;
+}
+.wrapper__result:last-child {
+  border: none;
+}
+.check {
+  display: inline;
+  height: 20px;
+  width: 20px;
+  margin-right: 1%;
+}
+.garbage {
+  width: 30px;
+  position: absolute;
+  right: 25%;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.search__bar {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1%;
+}
+#inp__search {
+  border: none;
+  background: hsl(0 0% 93%);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  box-sizing: border-box;
+  width: 75%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-right: 3%;
+}

@@ -1,0 +1,20 @@
+.container__person a{
+    text-decoration: none;
+    color:darkred;
+    border-left: solid 1px black;
+    padding: 0.5rem;
+}
+.container__person{
+    width: 13%;
+    border: solid 1px;
+    padding: 0.5rem;
+    border-radius: 30px;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    position: fixed;
+    right: 1%;
+    top: 1%;
+}
+.container__person p{
+    display: inline;
+    padding: 0.5rem;
+}

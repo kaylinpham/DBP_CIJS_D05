@@ -1,0 +1,20 @@
+.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+}
+.quote{
+    margin-bottom: 10%;
+}
+.title{
+    font-size: 5rem;
+    margin-bottom: 2%;
+}
+.btns__container{
+    width: 100%;
+    text-align: center;
+}
