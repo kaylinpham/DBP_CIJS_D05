@@ -1,0 +1,7 @@
+.avt{
+    flex-basis: 15%;
+}
+.avt img{
+    width: 100%;
+    border-radius: 50%;
+}

@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100;
+}
+.contacts{
+    flex-basis: 30%;
+}
+.individual{
+    background-color: darkseagreen;
+    flex-basis: 70%;
+}

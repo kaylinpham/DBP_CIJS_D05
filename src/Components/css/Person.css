@@ -1,0 +1,15 @@
+.personal {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 0.5rem;
+  border-bottom: solid 1px rgb(134, 124, 124);
+  padding-bottom: 0;
+  cursor: pointer;
+}
+.personal:last-child{
+    border: none;
+}
+.personal:hover{
+    background-color: rgb(231, 229, 225);
+}

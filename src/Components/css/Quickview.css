@@ -1,0 +1,8 @@
+.quickview{
+    flex-basis: 85%;
+    padding-left: 1rem;
+    box-sizing: border-box;
+}
+.quickview b{
+    font-size: 1.15rem;
+}
