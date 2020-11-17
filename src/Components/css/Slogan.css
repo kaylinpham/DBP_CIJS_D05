@@ -3,9 +3,10 @@
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    width: 40%;
+    width: 100%;
     margin: auto;
     margin-top: 10%;
+    height: 100vh;
 }
 .quote{
     margin-bottom: 10%;
