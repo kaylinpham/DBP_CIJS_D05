@@ -7,7 +7,7 @@ class Personal extends Component {
     render() { 
         return ( 
             <div className="container__person">
-                <p>starryskyots</p>
+                <p>{this.props.user}</p>
                 <a href="#">Log out</a>
             </div>
          );

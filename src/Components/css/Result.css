@@ -30,6 +30,7 @@
   height: 20px;
   width: 20px;
   margin-right: 1%;
+  cursor: pointer;
 }
 .garbage {
   width: 30px;

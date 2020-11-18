@@ -16,3 +16,7 @@
   display: inline-block;
   width: 20%;
 }
+.input__container img{
+  position: absolute;
+  width: 1.25rem;
+}

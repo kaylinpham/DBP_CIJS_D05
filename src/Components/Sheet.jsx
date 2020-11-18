@@ -9,9 +9,9 @@ class Sheet extends Component {
     }
     render() { 
         return ( 
-            <div>
+            <div style={{backgroundImage:`url(${this.props.url})`}} className={this.props.className}>
                 <h3>Todo list</h3>
-                <Personal/>
+                <Personal user={this.props.user}/>
                 <Search/>
                 <Results/>
             </div>
