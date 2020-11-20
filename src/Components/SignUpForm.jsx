@@ -7,6 +7,7 @@ import "firebase/firestore";
 import "firebase/storage";
 import "firebase/performance";
 import firebase from "../config/firebase.config";
+export const db = firebase.firestore();
 class SignUpForm extends Component {
   constructor(props) {
     super(props);
@@ -63,13 +64,12 @@ class SignUpForm extends Component {
         })
         .then((res) => {
           if (res) {
-            firebase
-              .firestore()
-              .collection("accounts")
+            db.collection("accounts")
               .add({
                 Email: this.state.Email,
                 Username: this.state.Username,
                 Password: this.state.Password,
+                Tasks: [],
               })
               .then(function () {
                 console.log("Document successfully written!");

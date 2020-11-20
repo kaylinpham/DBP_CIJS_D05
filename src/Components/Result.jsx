@@ -8,7 +8,7 @@ import firebase from "../config/firebase.config";
 class Result extends Component {
   constructor(props) {
     super(props);
-    this.state={}
+    this.state = {};
   }
   componentDidMount() {
     const storageRef = firebase.storage().ref();
@@ -25,7 +25,7 @@ class Result extends Component {
     return (
       <div className="wrapper__result">
         <input class="check" type="checkbox" />
-        <div className="items__result" data-value="vfsb"></div>
+        <div className="items__result">{this.props.task}</div>
         <img class="garbage" src={this.state.url} />
       </div>
     );
