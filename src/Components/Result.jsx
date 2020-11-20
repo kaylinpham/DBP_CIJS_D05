@@ -24,7 +24,7 @@ class Result extends Component {
   render() {
     return (
       <div className="wrapper__result">
-        <input class="check" type="checkbox" />
+        {/* <input class="check" type="checkbox" /> */}
         <input
           name={this.props.index}
           onChange={this.props.onChange}
