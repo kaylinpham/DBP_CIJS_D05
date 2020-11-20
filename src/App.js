@@ -25,6 +25,7 @@ class App extends React.Component {
       id: null,
       edit: "",
       index: null,
+      resultState: false,
     };
     this.toggleSignUpForm = this.toggleSignUpForm.bind(this);
     this.toggleLoginForm = this.toggleLoginForm.bind(this);
@@ -99,22 +100,23 @@ class App extends React.Component {
           let data = querySnapshot.docs[0].data();
           let tasks = [];
           if (!data.Tasks || data.Tasks.length === 0) {
-            tasks.push(
-              <p style={{ textAlign: "center" }}>List your work here !</p>
-            );
+            obj.setState({ resultState: false });
           } else {
-            data.Tasks.map((value, key) => {
-              tasks.push(
-                <Result
-                  onChange={obj.edit}
-                  index={key}
-                  onClear={obj.clearTask}
-                  key={key + 1}
-                  task={value}
-                />
-              );
-            });
-            obj.setState({ task: data.Tasks, id: querySnapshot.docs[0].id });
+            obj.setState({ resultState: true });
+            setTimeout(() => {
+              data.Tasks.map((value, key) => {
+                tasks.push(
+                  <Result
+                    onChange={obj.edit}
+                    index={key}
+                    onClear={obj.clearTask}
+                    key={key + 1}
+                    task={value}
+                  />
+                );
+              });
+              obj.setState({ task: data.Tasks, id: querySnapshot.docs[0].id });
+            }, 0);
           }
           obj.setState({ list: tasks, id: querySnapshot.docs[0].id });
         }
@@ -214,6 +216,9 @@ class App extends React.Component {
           }
         />
         <Sheet
+          results={
+            this.state.resultState ? "list__results" : "list__results none"
+          }
           onChange={this.edit}
           onClear={this.clearTask}
           id={this.state.id}

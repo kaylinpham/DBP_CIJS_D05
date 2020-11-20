@@ -12,7 +12,7 @@ import { db } from "./SignUpForm";
 class Sheet extends Component {
   constructor(props) {
     super(props);
-    this.state = { list: this.props.list };
+    this.state = { list: this.props.list, results: null };
     this.getTask = this.getTask.bind(this);
     this.addTask = this.addTask.bind(this);
   }
@@ -21,29 +21,29 @@ class Sheet extends Component {
   }
   addTask() {
     let obj = this;
-    let tasks = this.props.task;
-    let lists = this.props.list;
+    let tasks = obj.props.task;
+    let lists = obj.props.list;
     if (this.state.temp !== "") {
-      tasks.push(this.state.temp);
-      lists.push(
-        <Result
-          onChange={this.props.onChange}
-          index={lists.length}
-          onClear={this.props.onClear}
-          key={lists.length + 1}
-          task={obj.state.temp}
-        />
-      );
-      this.setState({ task: tasks, list: lists });
+      obj.setState({ results: "list__results" });
+      setTimeout(() => {
+        tasks.push(obj.state.temp);
+        lists.push(
+          <Result
+            onChange={obj.props.onChange}
+            index={lists.length}
+            onClear={obj.props.onClear}
+            key={lists.length + 1}
+            task={obj.state.temp}
+          />
+        );
+      }, 0);
+      obj.setState({ task: tasks, list: lists });
       setTimeout(() => {
         var docRef = db.collection("accounts").doc(obj.props.id);
         this.setState({ temp: "" });
         return docRef
           .update({
             Tasks: obj.state.task,
-          })
-          .then(function () {
-            console.log("Document successfully updated!");
           })
           .catch(function (error) {
             console.error("Error updating document: ", error);
@@ -64,7 +64,12 @@ class Sheet extends Component {
           onAdd={this.addTask}
           onGet={this.getTask}
         />
-        <Results list={this.props.list} />
+        <Results
+          className={
+            this.state.results ? this.state.results : this.props.results
+          }
+          list={this.props.list}
+        />
       </div>
     );
   }

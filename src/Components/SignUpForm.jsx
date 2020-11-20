@@ -51,13 +51,13 @@ class SignUpForm extends Component {
     return true;
   }
   add(e) {
+    let obj = this;
     e.preventDefault();
-    const transfer = this.props.onSignUp();
-    if (this.checkFormat()) {
+    if (obj.checkFormat()) {
       firebase
         .firestore()
         .collection("accounts")
-        .where("Username", "==", this.state.Username)
+        .where("Username", "==", obj.state.Username)
         .get()
         .then(function (querySnapshot) {
           return querySnapshot.empty;
@@ -66,15 +66,15 @@ class SignUpForm extends Component {
           if (res) {
             db.collection("accounts")
               .add({
-                Email: this.state.Email,
-                Username: this.state.Username,
-                Password: this.state.Password,
+                Email: obj.state.Email,
+                Username: obj.state.Username,
+                Password: obj.state.Password,
                 Tasks: [],
               })
               .then(function () {
                 console.log("Document successfully written!");
                 alert("Sign up successfully!");
-                transfer();
+                obj.props.onSignUp();
               })
               .catch(function (error) {
                 console.error("Error writing document: ", error.message);
