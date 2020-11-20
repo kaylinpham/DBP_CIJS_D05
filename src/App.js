@@ -59,7 +59,11 @@ class App extends React.Component {
     let choose = window.confirm("Do you want to delete this item?");
     if (choose) {
       arr = arr.filter((v, k) => k !== i);
-      this.setState({ task: arr });
+      if (arr.length === 0) {
+        obj.setState({ task: arr, resultState: false });
+      } else {
+        obj.setState({ task: arr, resultState: true });
+      }
       setTimeout(() => {
         var docRef = db.collection("accounts").doc(obj.state.id);
         return docRef
