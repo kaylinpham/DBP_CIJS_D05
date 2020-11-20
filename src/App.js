@@ -23,6 +23,8 @@ class App extends React.Component {
       list: [],
       task: [],
       id: null,
+      edit: "",
+      index: null,
     };
     this.toggleSignUpForm = this.toggleSignUpForm.bind(this);
     this.toggleLoginForm = this.toggleLoginForm.bind(this);
@@ -30,6 +32,7 @@ class App extends React.Component {
     this.login = this.login.bind(this);
     this.logOut = this.logOut.bind(this);
     this.clearTask = this.clearTask.bind(this);
+    this.edit = this.edit.bind(this);
   }
   componentDidMount() {
     const storageRef = firebase.storage().ref();
@@ -67,6 +70,7 @@ class App extends React.Component {
             obj.state.task.map((value, key) => {
               list.push(
                 <Result
+                  onChange={obj.edit}
                   index={key}
                   onClear={obj.clearTask}
                   key={key + 1}
@@ -102,6 +106,7 @@ class App extends React.Component {
             data.Tasks.map((value, key) => {
               tasks.push(
                 <Result
+                  onChange={obj.edit}
                   index={key}
                   onClear={obj.clearTask}
                   key={key + 1}
@@ -145,6 +150,38 @@ class App extends React.Component {
       window.location.reload();
     }
   }
+  edit(e) {
+    e.preventDefault();
+    let obj = this;
+    let i = e.target.name;
+    let arr = obj.state.task;
+    arr[i] = e.target.value;
+    obj.setState({ task: arr });
+    let list = [];
+    arr.map((value, key) => {
+      list.push(
+        <Result
+          onChange={obj.edit}
+          index={key}
+          onClear={obj.clearTask}
+          key={key + 1}
+          task={value}
+        />
+      );
+    });
+    obj.setState({ list: list });
+    setTimeout(() => {
+      var docRef = db.collection("accounts").doc(obj.state.id);
+      return docRef
+        .update({
+          Tasks: obj.state.task,
+        })
+        .catch(function (error) {
+          console.error("Error updating document: ", error);
+        });
+    }, 0);
+  }
+
   render() {
     return (
       <div className="container">
@@ -177,6 +214,7 @@ class App extends React.Component {
           }
         />
         <Sheet
+          onChange={this.edit}
           onClear={this.clearTask}
           id={this.state.id}
           task={this.state.task}

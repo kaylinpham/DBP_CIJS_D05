@@ -26,9 +26,11 @@ class Sheet extends Component {
     if (this.state.temp !== "") {
       tasks.push(this.state.temp);
       lists.push(
-        <Result index={lists.length}
+        <Result
+          onChange={this.props.onChange}
+          index={lists.length}
           onClear={this.props.onClear}
-          key={lists.length+1}
+          key={lists.length + 1}
           task={obj.state.temp}
         />
       );

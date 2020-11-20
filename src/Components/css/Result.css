@@ -13,6 +13,10 @@
   box-sizing: border-box;
   text-decoration: none;
   color: black;
+  border: none;
+  background-color: #f1f1f1;
+  outline: none;
+  font-size: 1rem;
 }
 .items__resultDone {
   cursor: pointer;
