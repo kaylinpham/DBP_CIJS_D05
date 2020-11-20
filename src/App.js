@@ -6,6 +6,7 @@ import Result from "./Components/Result";
 import "firebase/auth";
 import "firebase/firestore";
 import "firebase/storage";
+import { db } from "./Components/SignUpForm";
 import firebase from "./config/firebase.config";
 
 const { default: Slogan } = require("./Components/Slogan");
@@ -28,6 +29,7 @@ class App extends React.Component {
     this.collectInfor = this.collectInfor.bind(this);
     this.login = this.login.bind(this);
     this.logOut = this.logOut.bind(this);
+    this.clearTask = this.clearTask.bind(this);
   }
   componentDidMount() {
     const storageRef = firebase.storage().ref();
@@ -45,12 +47,46 @@ class App extends React.Component {
     let value = e.target.value;
     this.setState({ [e.target.name.split(" ").join("")]: value });
   }
+  clearTask(e) {
+    let obj = this;
+    e.preventDefault();
+    let i = e.target.tabIndex;
+    let arr = obj.state.task;
+    let choose = window.confirm("Do you want to delete this item?");
+    if (choose) {
+      arr = arr.filter((v, k) => k !== i);
+      this.setState({ task: arr });
+      setTimeout(() => {
+        var docRef = db.collection("accounts").doc(obj.state.id);
+        return docRef
+          .update({
+            Tasks: obj.state.task,
+          })
+          .then(function () {
+            let list = [];
+            obj.state.task.map((value, key) => {
+              list.push(
+                <Result
+                  index={key}
+                  onClear={obj.clearTask}
+                  key={key + 1}
+                  task={value}
+                />
+              );
+            });
+            obj.setState({ list: list });
+            console.log("Document successfully updated!");
+          })
+          .catch(function (error) {
+            console.error("Error updating document: ", error);
+          });
+      }, 0);
+    }
+  }
   login(e) {
     let obj = this;
     e.preventDefault();
-    firebase
-      .firestore()
-      .collection("accounts")
+    db.collection("accounts")
       .where("Username", "==", this.state.Username)
       .where("Password", "==", this.state.Password)
       .get()
@@ -63,8 +99,15 @@ class App extends React.Component {
               <p style={{ textAlign: "center" }}>List your work here !</p>
             );
           } else {
-            data.Tasks.map((value) => {
-              tasks.push(<Result task={value} />);
+            data.Tasks.map((value, key) => {
+              tasks.push(
+                <Result
+                  index={key}
+                  onClear={obj.clearTask}
+                  key={key + 1}
+                  task={value}
+                />
+              );
             });
             obj.setState({ task: data.Tasks, id: querySnapshot.docs[0].id });
           }
@@ -134,6 +177,7 @@ class App extends React.Component {
           }
         />
         <Sheet
+          onClear={this.clearTask}
           id={this.state.id}
           task={this.state.task}
           list={this.state.list}

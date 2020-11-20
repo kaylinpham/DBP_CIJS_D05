@@ -26,7 +26,12 @@ class Result extends Component {
       <div className="wrapper__result">
         <input class="check" type="checkbox" />
         <div className="items__result">{this.props.task}</div>
-        <img class="garbage" src={this.state.url} />
+        <img
+          onClick={this.props.onClear}
+          tabIndex={this.props.index}
+          class="garbage"
+          src={this.state.url}
+        />
       </div>
     );
   }

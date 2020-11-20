@@ -25,7 +25,13 @@ class Sheet extends Component {
     let lists = this.props.list;
     if (this.state.temp !== "") {
       tasks.push(this.state.temp);
-      lists.push(<Result task={obj.state.temp} />);
+      lists.push(
+        <Result index={lists.length}
+          onClear={this.props.onClear}
+          key={lists.length+1}
+          task={obj.state.temp}
+        />
+      );
       this.setState({ task: tasks, list: lists });
       setTimeout(() => {
         var docRef = db.collection("accounts").doc(obj.props.id);
