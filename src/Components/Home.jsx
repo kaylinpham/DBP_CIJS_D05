@@ -11,6 +11,16 @@ class Home extends Component {
                 <div className="contacts">
                     <Person/>
                     <Person/>
+                    <Person/>
+                    <Person/>
+                    <Person/>
+                    <Person/>
+                    <Person/>
+                    <Person/>
+                    <Person/>
+                    <Person/>
+                    <Person/>
+                    <Person/>
                 </div>
                 <div className="individual">b</div>
             </div>

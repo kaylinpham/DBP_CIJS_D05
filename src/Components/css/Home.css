@@ -1,10 +1,14 @@
 .container{
     display: flex;
     flex-flow: row wrap;
-    width: 100;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
 }
 .contacts{
     flex-basis: 30%;
+    overflow-y: scroll;
 }
 .individual{
     background-color: darkseagreen;
