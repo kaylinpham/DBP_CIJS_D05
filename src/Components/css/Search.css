@@ -1,0 +1,19 @@
+.inp__search{
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+    border-radius: 1rem;
+    outline: none;
+    background: rgb(255, 255, 255,0.8);
+}
+button{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    border-radius: 1rem;
+    background: red;
+    color: white;
+}

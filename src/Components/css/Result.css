@@ -1,0 +1,27 @@
+.result{
+    position: relative;
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    background: white;
+    color: #53627c;
+    width: 20vw;
+    box-sizing: border-box;
+}
+.result .city__name sup{
+    padding: 0.2em 0.6em;
+    border-radius: 30px;
+    color: white;
+    background: orange;
+    font-size: 0.7rem;
+}
+.result .city__name span{
+    font-size: 1.5rem;
+}
+.city__temp{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.city__temp sup{
+    font-size: 2rem;
+}
