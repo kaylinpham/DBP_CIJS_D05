@@ -4,8 +4,11 @@
     border-radius: 20px;
     background: white;
     color: #53627c;
-    width: 20vw;
+    width: 22vw;
     box-sizing: border-box;
+    margin: auto;
+    margin-top: 5rem;
+    height: 50vh;
 }
 .result .city__name sup{
     padding: 0.2em 0.6em;
@@ -18,10 +21,17 @@
     font-size: 1.5rem;
 }
 .city__temp{
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: bold;
     margin-top: 10px;
 }
 .city__temp sup{
     font-size: 2rem;
+}
+.none{
+    display: none;
+}
+figure{
+    margin: 0;
+    text-align: center;
 }
