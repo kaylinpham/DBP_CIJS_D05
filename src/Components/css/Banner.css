@@ -1,0 +1,29 @@
+.banner__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner__container button{
+    color: white;
+    padding: 0.5rem;
+    background-color: red;
+    border-radius: 1rem;
+    font-weight: bold;
+    width: 10%;
+    outline: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    border: none;
+    font-size: 1rem;
+}
+.h80{
+    height: 80vh;
+}
+h1{
+    margin: 0;
+}
+.h40{
+    height: 40vh;
+}
