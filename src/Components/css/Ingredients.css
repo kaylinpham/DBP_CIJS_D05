@@ -1,0 +1,14 @@
+.ingredients h2{
+    font-weight: 500;
+    font-size: 1.75rem;
+    margin: 0;
+}
+.ingredients ul{
+    margin-top: 1rem;
+    padding-inline-start: 1.1rem;
+}
+.ingredients ul li{
+    font-size: 1rem;
+    list-style-type: circle;
+    margin: 0.5rem 0;
+}

@@ -1,3 +1,10 @@
 .general{
-    width: 100%;
+    flex-basis: 60%;
+    font-size: 1rem;
+    padding-left: 2rem;
+    box-sizing: border-box;
+}
+.general h2{
+    font-weight: 500;
+    margin-top: 0;
 }

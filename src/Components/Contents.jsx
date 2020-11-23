@@ -1,15 +1,12 @@
 import React, { Component } from "react";
 import General from "./General";
 import Details from "./Details";
+import "./css/Contents.css";
 const Contents = (props) => {
   return (
     <div className="contents__container">
-      <div className="details__container">
-        <Details />
-      </div>
-      <div className="general__container">
-        <General />
-      </div>
+      <Details meal={props.meal}/>
+      <General name={props.meal.strMeal} instruction={props.meal.strInstructions}/>
     </div>
   );
 };

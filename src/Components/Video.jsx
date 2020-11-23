@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./css/Video.css";
 const Video = (props) => {
   return (
     <div className="video__container">
@@ -6,7 +7,7 @@ const Video = (props) => {
       <iframe
         width="100%"
         height="561"
-        src="https://www.youtube.com/embed/tOlOxCFYRFo"
+        src={props.url}
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
