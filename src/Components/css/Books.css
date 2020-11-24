@@ -1,0 +1,7 @@
+.books{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}

@@ -1,0 +1,38 @@
+.book__wrapper {
+  background-color: white;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.book__cover {
+  flex-basis: 45%;
+}
+.description {
+  flex-basis: 55%s;
+  font-size: 0.75rem;
+  padding-left: 0.3rem;
+  box-sizing: border-box;
+}
+.description h6 {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+.inforbook__btn {
+  display: inline;
+  padding: 0.5rem;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: black;
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  border: none;
+  border-radius: 12px;
+  width: 5rem;
+  margin: 0.3rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
