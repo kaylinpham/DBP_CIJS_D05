@@ -1,14 +1,14 @@
-.book__wrapper {
+.project__wrapper {
   background-color: white;
   margin: 0.5rem;
   display: flex;
   flex-direction: row;
 }
-.book__cover {
-  flex-basis: 45%;
+.project__cover {
+  flex-basis: 40%;
 }
 .description {
-  flex-basis: 55%s;
+  flex-basis: 60%;
   font-size: 0.75rem;
   padding-left: 0.3rem;
   box-sizing: border-box;
@@ -17,7 +17,7 @@
   font-size: 1rem;
   margin: 1rem 0;
 }
-.inforbook__btn {
+.infor__btn {
   display: inline;
   padding: 0.5rem;
   font-size: 1em;

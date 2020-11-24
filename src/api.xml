@@ -1,0 +1,1644 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<projects numberFound="10">
+    <project>
+        <active>true</active>
+        <activities>All donations to this fund will support recovery and relief efforts for Hurricane Iota in all impacted regions. Initially, funds will help first responders meet survivors' immediate needs for food, fuel, clean water, hygiene products, and shelter. The fund will later transition to support longer-term recovery efforts run primarily by local, vetted organizations in the communities affected. We are coordinating our response to Hurricane Iota and Hurricane Eta to maximize the impact of donations.</activities>
+        <additionalDocumentation>https://www.globalgiving.org/pfil/50058/projdoc.pdf</additionalDocumentation>
+        <approvedDate>2020-11-16T16:45:25-05:00</approvedDate>
+        <contactAddress>1110 Vermont Ave NW Ste 550</contactAddress>
+        <contactCity>Washington</contactCity>
+        <contactCountry>United States</contactCountry>
+        <contactName>Sandrina da Cruz</contactName>
+        <contactPostal>20005</contactPostal>
+        <contactState>DC</contactState>
+        <contactUrl>https://www.globalgiving.org</contactUrl>
+        <countries>
+            <country>
+                <iso3166CountryCode>NI</iso3166CountryCode>
+                <name>Nicaragua</name>
+            </country>
+            <country>
+                <iso3166CountryCode>NI</iso3166CountryCode>
+                <name>Nicaragua</name>
+            </country>
+        </countries>
+        <country>Nicaragua</country>
+        <donationOptions>
+            <donationOption>
+                <amount>15</amount>
+                <description>emergency relief and support</description>
+            </donationOption>
+            <donationOption>
+                <amount>30</amount>
+                <description>emergency relief and support</description>
+            </donationOption>
+            <donationOption>
+                <amount>55</amount>
+                <description>emergency relief and support</description>
+            </donationOption>
+            <donationOption>
+                <amount>100</amount>
+                <description>emergency relief and support</description>
+            </donationOption>
+            <donationOption>
+                <amount>250</amount>
+                <description>emergency relief and support</description>
+            </donationOption>
+            <donationOption>
+                <amount>1000</amount>
+                <description>emergency relief and support</description>
+            </donationOption>
+        </donationOptions>
+        <funding>36081.34</funding>
+        <goal>500000.00</goal>
+        <id>50058</id>
+        <image id="0">
+            <imagelink size="small">
+                <url>https://www.globalgiving.org/pfil/50058/pict_grid1.jpg</url>
+            </imagelink>
+            <imagelink size="thumbnail">
+                <url>https://www.globalgiving.org/pfil/50058/pict_thumbnail.jpg</url>
+            </imagelink>
+            <imagelink size="medium">
+                <url>https://www.globalgiving.org/pfil/50058/pict_med.jpg</url>
+            </imagelink>
+            <imagelink size="large">
+                <url>https://www.globalgiving.org/pfil/50058/pict_grid7.jpg</url>
+            </imagelink>
+            <imagelink size="extraLarge">
+                <url>https://www.globalgiving.org/pfil/50058/pict_large.jpg</url>
+            </imagelink>
+            <imagelink size="original">
+                <url>https://www.globalgiving.org/pfil/50058/pict_original.jpg</url>
+            </imagelink>
+            <title>Hurricane Iota Relief Fund</title>
+        </image>
+        <imageGallerySize>1</imageGallerySize>
+        <imageLink>https://www.globalgiving.org/pfil/50058/pict.jpg</imageLink>
+        <iso3166CountryCode>NI</iso3166CountryCode>
+        <longTermImpact>We believe that organizations that are deeply rooted in local communities are in the best position to provide long-term support for survivors of natural disasters like this. By funding the relief efforts of local organizations, donations to this fund have the potential to build stronger response capacity so that these organizations are better equipped to face future challenges.</longTermImpact>
+        <modifiedDate>2020-11-24T08:26:31-05:00</modifiedDate>
+        <need>Hurricane Iota brought catastrophic wind damage and widespread flooding to Nicaragua and Honduras, compounding the destruction caused by Hurricane Eta. Local officials are doing the best to deal with evacuations and temporary shelters amid the coronavirus pandemic. Several of GlobalGiving's local nonprofit partners are responding and have asked us to help fund relief and recovery efforts on the ground.</need>
+        <numberOfDonations>231</numberOfDonations>
+        <numberOfReports>0</numberOfReports>
+        <organization>
+            <activeProjects>34</activeProjects>
+            <addressLine1>1110 Vermont Avenue NW</addressLine1>
+            <addressLine2>Suite 550</addressLine2>
+            <city>Washington</city>
+            <countries>
+                <country>
+                    <iso3166CountryCode>AF</iso3166CountryCode>
+                    <name>Afghanistan</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>BD</iso3166CountryCode>
+                    <name>Bangladesh</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>BR</iso3166CountryCode>
+                    <name>Brazil</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>BF</iso3166CountryCode>
+                    <name>Burkina Faso</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>KH</iso3166CountryCode>
+                    <name>Cambodia</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>TD</iso3166CountryCode>
+                    <name>Chad</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>CL</iso3166CountryCode>
+                    <name>Chile</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>CN</iso3166CountryCode>
+                    <name>China</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>CR</iso3166CountryCode>
+                    <name>Costa Rica</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>CD</iso3166CountryCode>
+                    <name>Congo, Democratic Republic of the</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>DJ</iso3166CountryCode>
+                    <name>Djibouti</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>ET</iso3166CountryCode>
+                    <name>Ethiopia</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>FI</iso3166CountryCode>
+                    <name>Finland</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>GT</iso3166CountryCode>
+                    <name>Guatemala</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>GY</iso3166CountryCode>
+                    <name>Guyana</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>HT</iso3166CountryCode>
+                    <name>Haiti</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>HK</iso3166CountryCode>
+                    <name>China-Hong Kong SAR</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>IN</iso3166CountryCode>
+                    <name>India</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>ID</iso3166CountryCode>
+                    <name>Indonesia</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>IT</iso3166CountryCode>
+                    <name>Italy</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>JP</iso3166CountryCode>
+                    <name>Japan</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>KE</iso3166CountryCode>
+                    <name>Kenya</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>MW</iso3166CountryCode>
+                    <name>Malawi</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>MY</iso3166CountryCode>
+                    <name>Malaysia</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>ML</iso3166CountryCode>
+                    <name>Mali</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>MR</iso3166CountryCode>
+                    <name>Mauritania</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>MA</iso3166CountryCode>
+                    <name>Morocco</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>MM</iso3166CountryCode>
+                    <name>Myanmar</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>NA</iso3166CountryCode>
+                    <name>Namibia</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>NP</iso3166CountryCode>
+                    <name>Nepal</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>NZ</iso3166CountryCode>
+                    <name>New Zealand</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>NE</iso3166CountryCode>
+                    <name>Niger</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>PK</iso3166CountryCode>
+                    <name>Pakistan</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>PY</iso3166CountryCode>
+                    <name>Paraguay</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>PH</iso3166CountryCode>
+                    <name>Philippines</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>RW</iso3166CountryCode>
+                    <name>Rwanda</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>SN</iso3166CountryCode>
+                    <name>Senegal</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>SL</iso3166CountryCode>
+                    <name>Sierra Leone</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>SO</iso3166CountryCode>
+                    <name>Somalia</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>ZA</iso3166CountryCode>
+                    <name>South Africa</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>KR</iso3166CountryCode>
+                    <name>South Korea</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>ES</iso3166CountryCode>
+                    <name>Spain</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>LK</iso3166CountryCode>
+                    <name>Sri Lanka</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>SD</iso3166CountryCode>
+                    <name>Sudan</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>TZ</iso3166CountryCode>
+                    <name>Tanzania, United Republic of</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>TH</iso3166CountryCode>
+                    <name>Thailand</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>TR</iso3166CountryCode>
+                    <name>Turkey</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>UG</iso3166CountryCode>
+                    <name>Uganda</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>GB</iso3166CountryCode>
+                    <name>United Kingdom</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>US</iso3166CountryCode>
+                    <name>United States</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>VN</iso3166CountryCode>
+                    <name>Vietnam</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>WS</iso3166CountryCode>
+                    <name>Samoa</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>ZM</iso3166CountryCode>
+                    <name>Zambia</name>
+                </country>
+            </countries>
+            <country>United States</country>
+            <ein>30-0108263</ein>
+            <id>189</id>
+            <iso3166CountryCode>US</iso3166CountryCode>
+            <logoUrl>https://www.globalgiving.org/pfil/organ/189/orglogo.jpg</logoUrl>
+            <mission>Our mission is to build an efficient, open, thriving marketplace that connects people who have community and world-changing ideas with people who can support them.</mission>
+            <name>GlobalGiving</name>
+            <postal>20005</postal>
+            <state>D.C.</state>
+            <themes>
+                <theme>
+                    <id>animals</id>
+                    <name>Animal Welfare</name>
+                </theme>
+                <theme>
+                    <id>children</id>
+                    <name>Child Protection</name>
+                </theme>
+                <theme>
+                    <id>democ</id>
+                    <name>Peace and Reconciliation</name>
+                </theme>
+                <theme>
+                    <id>disaster</id>
+                    <name>Disaster Response</name>
+                </theme>
+                <theme>
+                    <id>ecdev</id>
+                    <name>Economic Growth</name>
+                </theme>
+                <theme>
+                    <id>edu</id>
+                    <name>Education</name>
+                </theme>
+                <theme>
+                    <id>env</id>
+                    <name>Ecosystem Restoration</name>
+                </theme>
+                <theme>
+                    <id>gender</id>
+                    <name>Gender Equality</name>
+                </theme>
+                <theme>
+                    <id>health</id>
+                    <name>Physical Health</name>
+                </theme>
+                <theme>
+                    <id>rights</id>
+                    <name>Justice and Human Rights</name>
+                </theme>
+                <theme>
+                    <id>tech</id>
+                    <name>Digital Literacy</name>
+                </theme>
+                <theme>
+                    <id>hunger</id>
+                    <name>Food Security</name>
+                </theme>
+            </themes>
+            <totalProjects>156</totalProjects>
+            <url>https://www.globalgiving.org</url>
+        </organization>
+        <progressReportLink>https://www.globalgiving.org/projects/hurricane-iota-relief-fund/updates/</progressReportLink>
+        <projectLink>https://www.globalgiving.org/projects/hurricane-iota-relief-fund/</projectLink>
+        <region>South/Central America and the Caribbean</region>
+        <remaining>463918.66</remaining>
+        <status>active</status>
+        <summary>Hurricane Iota, a category 5 hurricane, made landfall in Nicaragua with sustained winds of 155 miles an hour and unleashed mudslides, tore apart buildings and left thousands homeless across Central America. This relief fund will support emergency aid like food, water, medicine, and shelter. As possible, the fund will transition to provide long-term assistance as needed. All donations to this fund will exclusively support Hurricane Iota relief and recovery efforts in the impacted countries.</summary>
+        <themeName>Disaster Response</themeName>
+        <themes>
+            <theme>
+                <id>disaster</id>
+                <name>Disaster Response</name>
+            </theme>
+        </themes>
+        <title>Hurricane Iota Relief Fund</title>
+        <type>project</type>
+    </project>
+    <project>
+        <active>true</active>
+        <activities>Prioritising children's schooling as the only way for a family to work their way out of poverty in the long term, we offer small grants to widows whose children are all of school age for the one-off financial support they need in order to keep their family together and keep their children in school. The average grant will be 13 euro per month, and the grants will be administered by a respected member of the community who knows families' situation to identify where the greatest need is.</activities>
+        <additionalDocumentation>https://www.globalgiving.org/pfil/20369/projdoc.doc</additionalDocumentation>
+        <approvedDate>2015-04-29T13:25:28-04:00</approvedDate>
+        <contactAddress>"Lidhja e Prizrenit" street, close to Hotel Prima.</contactAddress>
+        <contactCity>Prishtina</contactCity>
+        <contactCountry>Kosovo</contactCountry>
+        <contactName>elizabeth gowing</contactName>
+        <contactPostal>10000</contactPostal>
+        <contactState>Kosovo</contactState>
+        <contactUrl>http://www.theideaspartnership.org</contactUrl>
+        <countries>
+            <country>
+                <iso3166CountryCode>XK</iso3166CountryCode>
+                <name>Kosovo</name>
+            </country>
+        </countries>
+        <country>Kosovo</country>
+        <dateOfMostRecentReport>2020-09-08T12:42:52-04:00</dateOfMostRecentReport>
+        <donationOptions>
+            <donationOption>
+                <amount>10</amount>
+                <description>medical support and supplies, vaccina</description>
+            </donationOption>
+            <donationOption>
+                <amount>15</amount>
+                <description>is the average grant we intend to make to a widow in a month</description>
+            </donationOption>
+            <donationOption>
+                <amount>25</amount>
+                <description>would pay for two sacks of flour for a widow and her children</description>
+            </donationOption>
+            <donationOption>
+                <amount>50</amount>
+                <description>pays for a mediator to visit families through the project to check children's attendance at school</description>
+            </donationOption>
+        </donationOptions>
+        <funding>9632.25</funding>
+        <goal>12000.00</goal>
+        <id>20369</id>
+        <image id="0">
+            <imagelink size="small">
+                <url>https://www.globalgiving.org/pfil/20369/pict_grid1.jpg</url>
+            </imagelink>
+            <imagelink size="thumbnail">
+                <url>https://www.globalgiving.org/pfil/20369/pict_thumbnail.jpg</url>
+            </imagelink>
+            <imagelink size="medium">
+                <url>https://www.globalgiving.org/pfil/20369/pict_med.jpg</url>
+            </imagelink>
+            <imagelink size="large">
+                <url>https://www.globalgiving.org/pfil/20369/pict_grid7.jpg</url>
+            </imagelink>
+            <imagelink size="extraLarge">
+                <url>https://www.globalgiving.org/pfil/20369/pict_large.jpg</url>
+            </imagelink>
+            <imagelink size="original">
+                <url>https://www.globalgiving.org/pfil/20369/pict_original.jpg</url>
+            </imagelink>
+            <title>Widows Fund Fushe Kosova</title>
+        </image>
+        <imageGallerySize>1</imageGallerySize>
+        <imageLink>https://www.globalgiving.org/pfil/20369/pict.jpg</imageLink>
+        <iso3166CountryCode>XK</iso3166CountryCode>
+        <latitude>42.62763595581055</latitude>
+        <longTermImpact>In the long-term, a child who has completed their education is able to support themselves, their family and their community. This is only possible if we avert the short-term crisis precipitated by the untimely death of the breadwinner in a child's family. [Photo credit: Arber Jashari]</longTermImpact>
+        <longitude>21.08512306213379</longitude>
+        <modifiedDate>2020-11-24T08:26:31-05:00</modifiedDate>
+        <need>In neighbourhoods 28 and 29 of Fushe Kosove almost every family survives on waste-picking. Men are the most active in this job, though children - who can shinny into skips and reach garbage that others miss - can earn as much as their fathers. When a man dies, there is huge economic pressure on his children to leave school in order to make up for his lost income. If all the children are of school age, their widowed mother has too many childcare responsibilities to earn money herself.</need>
+        <numberOfDonations>111</numberOfDonations>
+        <numberOfReports>21</numberOfReports>
+        <organization>
+            <activeProjects>4</activeProjects>
+            <addressLine1>Luan Haradinaj 11/5</addressLine1>
+            <addressLine2/>
+            <city>Prishtina</city>
+            <countries>
+                <country>
+                    <iso3166CountryCode>XK</iso3166CountryCode>
+                    <name>Kosovo</name>
+                </country>
+            </countries>
+            <country>Kosovo</country>
+            <id>24385</id>
+            <iso3166CountryCode>XK</iso3166CountryCode>
+            <logoUrl>https://www.globalgiving.org/pfil/organ/24385/orglogo.jpg</logoUrl>
+            <mission>The Ideas Partnership harnesses the power of volunteers to tackle challenges in education, cultural heritage and the environment in Kosovo and the region. Many of our projects work particularly with the Roma, Ashkali and Egyptian communities</mission>
+            <name>The Ideas Partnership</name>
+            <postal>10000</postal>
+            <state/>
+            <themes>
+                <theme>
+                    <id>children</id>
+                    <name>Child Protection</name>
+                </theme>
+                <theme>
+                    <id>democ</id>
+                    <name>Peace and Reconciliation</name>
+                </theme>
+                <theme>
+                    <id>ecdev</id>
+                    <name>Economic Growth</name>
+                </theme>
+                <theme>
+                    <id>edu</id>
+                    <name>Education</name>
+                </theme>
+                <theme>
+                    <id>env</id>
+                    <name>Ecosystem Restoration</name>
+                </theme>
+                <theme>
+                    <id>gender</id>
+                    <name>Gender Equality</name>
+                </theme>
+                <theme>
+                    <id>health</id>
+                    <name>Physical Health</name>
+                </theme>
+                <theme>
+                    <id>human</id>
+                    <name>Ending Human Trafficking</name>
+                </theme>
+            </themes>
+            <totalProjects>6</totalProjects>
+            <url>http://www.theideaspartnership.org</url>
+        </organization>
+        <progressReportLink>https://www.globalgiving.org/projects/widows-fund-fushe-kosova/updates/</progressReportLink>
+        <projectLink>https://www.globalgiving.org/projects/widows-fund-fushe-kosova/</projectLink>
+        <region>Europe and Russia</region>
+        <remaining>2367.75</remaining>
+        <status>active</status>
+        <summary>Ensuring that when a father dies, his children's chance of education don't die with him. When a father of young children dies, it's always a tragedy. When the family was already living right on the economic edge and they are left without food in the cupboard, without savings and now without available manpower to earn, his children are forced out of school to earn for their families. This fund offers support to widows in the poorest community in Kosovo supporting kids to stay in school.</summary>
+        <themeName>Gender Equality</themeName>
+        <themes>
+            <theme>
+                <id>gender</id>
+                <name>Gender Equality</name>
+            </theme>
+            <theme>
+                <id>edu</id>
+                <name>Education</name>
+            </theme>
+        </themes>
+        <title>Widows Fund Fushe Kosova</title>
+        <type>project</type>
+    </project>
+    <project>
+        <active>true</active>
+        <activities>Good Sense Dogs is giving an option to people who are struggling with housing, illness and crisis, yet want to best for their beloved pets.</activities>
+        <approvedDate>2020-04-30T11:16:19-04:00</approvedDate>
+        <contactAddress>4241 River Swan Lane</contactAddress>
+        <contactCity>Sacramento</contactCity>
+        <contactCountry>United States</contactCountry>
+        <contactName>Kristi Cooney</contactName>
+        <contactPostal>95834</contactPostal>
+        <contactState>CA</contactState>
+        <contactUrl>http://www.GoodSenseDogs.com</contactUrl>
+        <countries>
+            <country>
+                <iso3166CountryCode>US</iso3166CountryCode>
+                <name>United States</name>
+            </country>
+        </countries>
+        <country>United States</country>
+        <dateOfMostRecentReport>2020-08-25T13:47:24-04:00</dateOfMostRecentReport>
+        <donationOptions>
+            <donationOption>
+                <amount>10</amount>
+                <description>buy training treats for one dog</description>
+            </donationOption>
+            <donationOption>
+                <amount>15</amount>
+                <description>buy a new collar for a dog</description>
+            </donationOption>
+            <donationOption>
+                <amount>20</amount>
+                <description>buy a kong or nylabone for a dog</description>
+            </donationOption>
+            <donationOption>
+                <amount>30</amount>
+                <description>buy a new bed for a dog</description>
+            </donationOption>
+            <donationOption>
+                <amount>35</amount>
+                <description>vaccinate a dog</description>
+            </donationOption>
+            <donationOption>
+                <amount>40</amount>
+                <description>pays for a vet visit for a dog</description>
+            </donationOption>
+            <donationOption>
+                <amount>50</amount>
+                <description>buy a bag of dog food for a dog</description>
+            </donationOption>
+            <donationOption>
+                <amount>250</amount>
+                <description>pay the adoption fee of a dog</description>
+            </donationOption>
+        </donationOptions>
+        <funding>215.00</funding>
+        <goal>1000.00</goal>
+        <id>46709</id>
+        <image id="0">
+            <imagelink size="small">
+                <url>https://www.globalgiving.org/pfil/46709/pict_grid1.jpg</url>
+            </imagelink>
+            <imagelink size="thumbnail">
+                <url>https://www.globalgiving.org/pfil/46709/pict_thumbnail.jpg</url>
+            </imagelink>
+            <imagelink size="medium">
+                <url>https://www.globalgiving.org/pfil/46709/pict_med.jpg</url>
+            </imagelink>
+            <imagelink size="large">
+                <url>https://www.globalgiving.org/pfil/46709/pict_grid7.jpg</url>
+            </imagelink>
+            <imagelink size="extraLarge">
+                <url>https://www.globalgiving.org/pfil/46709/pict_large.jpg</url>
+            </imagelink>
+            <imagelink size="original">
+                <url>https://www.globalgiving.org/pfil/46709/pict_original.jpg</url>
+            </imagelink>
+            <title>Sensitive Souls Rescue of Sacramento</title>
+        </image>
+        <imageGallerySize>1</imageGallerySize>
+        <imageLink>https://www.globalgiving.org/pfil/46709/pict.jpg</imageLink>
+        <iso3166CountryCode>US</iso3166CountryCode>
+        <longTermImpact>When people have a secure and trusted option for their pets, they are more likely to accept assistance for themselves and have more options for themselves.</longTermImpact>
+        <modifiedDate>2020-11-24T08:26:31-05:00</modifiedDate>
+        <need>The most vulnerable pet owners need help to care for their animals, particularly at present. As people are moved and housing is temporary or unstable, often pets needs are at risk. Good Sense Dogs is offering assistance to these groups with pet food and equipment, services referrals, and emergency and permanent sheltering of animals.</need>
+        <numberOfDonations>7</numberOfDonations>
+        <numberOfReports>1</numberOfReports>
+        <organization>
+            <activeProjects>3</activeProjects>
+            <addressLine1>4241 River Swan Lane</addressLine1>
+            <addressLine2/>
+            <city>Sacramento</city>
+            <countries>
+                <country>
+                    <iso3166CountryCode>US</iso3166CountryCode>
+                    <name>United States</name>
+                </country>
+            </countries>
+            <country>United States</country>
+            <ein>81-1373513</ein>
+            <id>62099</id>
+            <iso3166CountryCode>US</iso3166CountryCode>
+            <logoUrl>https://www.globalgiving.org/pfil/organ/62099/orglogo.jpg</logoUrl>
+            <mission>We believe in the connection between pets and people. In order to help our community, we educate people and train dogs. By aiding current pet owners, educating potential pet owners, and providing assisting animals to those who need them, we work to improve the lives of people and pets alike. Good Sense Dogs has two programs that serve the community with an eye towards helping pets and people alike. The focus of our training program is training dogs with purpose for people who need them. Our difference from other trainers is in specializing and customizing trained dogs for people who need or seek dogs with a purpose. This may be service dogs, therapy dogs, dogs with specialized skills, or just dogs who are trained with unique and desired capabilities. We rescue dogs with promise and train them to maximize on their potential. Our education program, Ahead with Tails, gives communities that are often otherwise without pet care knowledge or resources the tools they need to be capable pet owners and, potentially, with vocational skills to help them in the future. Good Sense Dogs is a 501(c)(3) nonprofit that depends on donations and grants to reach our goals and serve the public.</mission>
+            <name>Good Sense Dogs</name>
+            <postal>95834</postal>
+            <state>CA</state>
+            <themes>
+                <theme>
+                    <id>animals</id>
+                    <name>Animal Welfare</name>
+                </theme>
+                <theme>
+                    <id>children</id>
+                    <name>Child Protection</name>
+                </theme>
+                <theme>
+                    <id>edu</id>
+                    <name>Education</name>
+                </theme>
+                <theme>
+                    <id>human</id>
+                    <name>Ending Human Trafficking</name>
+                </theme>
+            </themes>
+            <totalProjects>3</totalProjects>
+            <url>http://www.GoodSenseDogs.com</url>
+        </organization>
+        <progressReportLink>https://www.globalgiving.org/projects/sensitive-souls-rescue-of-sacramento/updates/</progressReportLink>
+        <projectLink>https://www.globalgiving.org/projects/sensitive-souls-rescue-of-sacramento/</projectLink>
+        <region>North America</region>
+        <remaining>785.00</remaining>
+        <status>active</status>
+        <summary>Good Sense Dogs is extending our reach to assist a greater number of under-served pet owners in the Sacramento Valley. We are offering shelter and re-homing to pets that have been displaced and need help because their owner is ill, homeless, deported, or otherwise unable to care for their four legged best friend any longer. We not only care for these animals, but also train and make ready for adoption so these animals have the best chance at long term and permanent placement.</summary>
+        <themeName>Animal Welfare</themeName>
+        <themes>
+            <theme>
+                <id>animals</id>
+                <name>Animal Welfare</name>
+            </theme>
+            <theme>
+                <id>covid-19</id>
+                <name>COVID-19</name>
+            </theme>
+        </themes>
+        <title>Sensitive Souls Rescue of Sacramento</title>
+        <type>project</type>
+    </project>
+    <project>
+        <active>true</active>
+        <activities>Cake Baking for LGBTQ Empowerment in Uganda will allow us to train 100 LGBTQ individuals in cake baking and bakery management. When we ran this program in 2018 we found that for the first time, members of our community had a steady income. We also saw that many lacked the skills to manage it. We've incorporated basic financial literacy training into this round of programs to support participants as they learn to save, borrow, balance a check book, and provide for themselves and families.</activities>
+        <approvedDate>2020-01-27T11:25:41-05:00</approvedDate>
+        <contactAddress>MBARARA, WESTERN REGION, BISHOP WILLS STREET</contactAddress>
+        <contactCity>MBARARA</contactCity>
+        <contactCountry>Uganda</contactCountry>
+        <contactName>Mutesi Janet</contactName>
+        <contactPostal>+256</contactPostal>
+        <contactState/>
+        <contactUrl>http://mbarararisefoundation.org</contactUrl>
+        <countries>
+            <country>
+                <iso3166CountryCode>UG</iso3166CountryCode>
+                <name>Uganda</name>
+            </country>
+        </countries>
+        <country>Uganda</country>
+        <dateOfMostRecentReport>2020-09-20T23:34:29-04:00</dateOfMostRecentReport>
+        <donationOptions>
+            <donationOption>
+                <amount>25</amount>
+                <description>Provide Baking Ingredients for Six People</description>
+            </donationOption>
+            <donationOption>
+                <amount>50</amount>
+                <description>Train and Empower One LGBTQ Person</description>
+            </donationOption>
+            <donationOption>
+                <amount>100</amount>
+                <description>Train and Empower Two LGBTQ People</description>
+            </donationOption>
+            <donationOption>
+                <amount>250</amount>
+                <description>Train and Empower Five LGBTQ People</description>
+            </donationOption>
+            <donationOption>
+                <amount>500</amount>
+                <description>Train and Empower Ten LGBTQ People</description>
+            </donationOption>
+        </donationOptions>
+        <funding>729.39</funding>
+        <goal>5000.00</goal>
+        <id>44641</id>
+        <image id="0">
+            <imagelink size="small">
+                <url>https://www.globalgiving.org/pfil/44641/pict_grid1.jpg</url>
+            </imagelink>
+            <imagelink size="thumbnail">
+                <url>https://www.globalgiving.org/pfil/44641/pict_thumbnail.jpg</url>
+            </imagelink>
+            <imagelink size="medium">
+                <url>https://www.globalgiving.org/pfil/44641/pict_med.jpg</url>
+            </imagelink>
+            <imagelink size="large">
+                <url>https://www.globalgiving.org/pfil/44641/pict_grid7.jpg</url>
+            </imagelink>
+            <imagelink size="extraLarge">
+                <url>https://www.globalgiving.org/pfil/44641/pict_large.jpg</url>
+            </imagelink>
+            <imagelink size="original">
+                <url>https://www.globalgiving.org/pfil/44641/pict_original.jpg</url>
+            </imagelink>
+            <title>Cake Baking for LGBTQ Empowerment in Uganda</title>
+        </image>
+        <imageGallerySize>16</imageGallerySize>
+        <imageLink>https://www.globalgiving.org/pfil/44641/pict.jpg</imageLink>
+        <iso3166CountryCode>UG</iso3166CountryCode>
+        <longTermImpact>This project will train 100 LGBTQ individuals in financial literacy, baking and bakery management, and will allow them to be self-sufficient. With a steady income, they will have improved access to healthcare services, increased options for housing, and will have the opportunity to rise out of poverty and improve their well-being.</longTermImpact>
+        <modifiedDate>2020-11-24T08:26:31-05:00</modifiedDate>
+        <need>Though government institutionalized homophobia is the greatest barrier to members of rural Uganda's LGBTQ community seeking gainful employment, insufficient access to employment and job skills training programs is a close second. In Western Uganda, where our organization is based, poverty creates challenges like lack of access to health care services, shelter, food and education. Despite these challenges, the resiliency and persistence of the local LGBTQ community has never wavered.</need>
+        <numberOfDonations>13</numberOfDonations>
+        <numberOfReports>2</numberOfReports>
+        <organization>
+            <activeProjects>2</activeProjects>
+            <addressLine1>MBARARA, WESTERN REGION, BISHOP WILLS STREET</addressLine1>
+            <addressLine2/>
+            <city>MBARARA</city>
+            <countries>
+                <country>
+                    <iso3166CountryCode>UG</iso3166CountryCode>
+                    <name>Uganda</name>
+                </country>
+            </countries>
+            <country>Uganda</country>
+            <id>44721</id>
+            <iso3166CountryCode>UG</iso3166CountryCode>
+            <logoUrl>https://www.globalgiving.org/pfil/organ/44721/orglogo.jpg</logoUrl>
+            <mission>MRF's mission is to foster a united voice for the rural, grassroots Lesbian, Gay, Bisexual, Transgender and Intersex (LGBTI) community in Mbarara, Uganda, empowering and raising awareness on equal rights for all.</mission>
+            <name>MBARARA RISE FOUNDATION</name>
+            <postal>+256</postal>
+            <state/>
+            <themes>
+                <theme>
+                    <id>edu</id>
+                    <name>Education</name>
+                </theme>
+                <theme>
+                    <id>health</id>
+                    <name>Physical Health</name>
+                </theme>
+                <theme>
+                    <id>rights</id>
+                    <name>Justice and Human Rights</name>
+                </theme>
+                <theme>
+                    <id>lgbtq</id>
+                    <name>LGBTQIA+ Equality</name>
+                </theme>
+            </themes>
+            <totalProjects>6</totalProjects>
+            <url>http://mbarararisefoundation.org</url>
+        </organization>
+        <progressReportLink>https://www.globalgiving.org/projects/cake-baking-for-lgbtq-empowerment-in-uganda-1/updates/</progressReportLink>
+        <projectLink>https://www.globalgiving.org/projects/cake-baking-for-lgbtq-empowerment-in-uganda-1/</projectLink>
+        <region>Africa</region>
+        <remaining>4270.61</remaining>
+        <status>active</status>
+        <summary>Building on the success of our 2018 Cake Baking program which helped 100 LGBTQ community members find gainful employment, we are looking to our donors to once again help us teach baking, bakery management and financial literacy skills to 100 additional community members. This program will rebuild and renew LGBTQ communities throughout Western Uganda impacted by poverty. We aim to raise $5,000 to help 100 unemployed sexual minorities find gainful employment by 2021.</summary>
+        <themeName>LGBTQIA+ Equality</themeName>
+        <themes>
+            <theme>
+                <id>lgbtq</id>
+                <name>LGBTQIA+ Equality</name>
+            </theme>
+        </themes>
+        <title>Cake Baking for LGBTQ Empowerment in Uganda</title>
+        <type>project</type>
+    </project>
+    <project>
+        <active>true</active>
+        <activities>The Impact School is created to maximize the potential of Mayan girls by providing high-quality education while supporting holistic socioemotional development and celebrating culture. Every aspect of the school, the curriculum, and the mentorship program has been developed to nourish and connect the girls' talents with the opportunities of the 21st century. Creating a generation of female leaders empowered to break cycles of poverty and inequality. We call MAIA students "Girl Pioneers."</activities>
+        <approvedDate>2019-08-12T11:23:27-04:00</approvedDate>
+        <contactAddress>Km. 137, Caserio Xolbe</contactAddress>
+        <contactCity>Canton El Tablon</contactCity>
+        <contactCountry>Guatemala</contactCountry>
+        <contactName>Jenny Dale</contactName>
+        <contactPostal/>
+        <contactState>Solola</contactState>
+        <contactUrl>http://maiagt.org</contactUrl>
+        <countries>
+            <country>
+                <iso3166CountryCode>GT</iso3166CountryCode>
+                <name>Guatemala</name>
+            </country>
+        </countries>
+        <country>Guatemala</country>
+        <dateOfMostRecentReport>2020-10-20T12:49:05-04:00</dateOfMostRecentReport>
+        <donationOptions>
+            <donationOption>
+                <amount>50</amount>
+                <description>Provides each girl with school supplies for one year</description>
+            </donationOption>
+            <donationOption>
+                <amount>100</amount>
+                <description>Supports our extracurricular program that enables students to explore their interests like robotics, yoga, mural painting, soccer, or web design for one girl for an entire year</description>
+            </donationOption>
+            <donationOption>
+                <amount>250</amount>
+                <description>The cost of the Language Arts program for one girl for the year</description>
+            </donationOption>
+            <donationOption>
+                <amount>500</amount>
+                <description>Mentorship and family engagement program for one student for an entire year</description>
+            </donationOption>
+            <donationOption>
+                <amount>1000</amount>
+                <description>Provides one girl with STEM learning opportunities for an entire year</description>
+            </donationOption>
+        </donationOptions>
+        <funding>391.04</funding>
+        <goal>25000.00</goal>
+        <id>41494</id>
+        <image id="0">
+            <imagelink size="small">
+                <url>https://www.globalgiving.org/pfil/41494/pict_grid1.jpg</url>
+            </imagelink>
+            <imagelink size="thumbnail">
+                <url>https://www.globalgiving.org/pfil/41494/pict_thumbnail.jpg</url>
+            </imagelink>
+            <imagelink size="medium">
+                <url>https://www.globalgiving.org/pfil/41494/pict_med.jpg</url>
+            </imagelink>
+            <imagelink size="large">
+                <url>https://www.globalgiving.org/pfil/41494/pict_grid7.jpg</url>
+            </imagelink>
+            <imagelink size="extraLarge">
+                <url>https://www.globalgiving.org/pfil/41494/pict_large.jpg</url>
+            </imagelink>
+            <imagelink size="original">
+                <url>https://www.globalgiving.org/pfil/41494/pict_original.jpg</url>
+            </imagelink>
+            <title>Education & Empowerment for Girls in Guatemala</title>
+        </image>
+        <imageGallerySize>7</imageGallerySize>
+        <imageLink>https://www.globalgiving.org/pfil/41494/pict.jpg</imageLink>
+        <iso3166CountryCode>GT</iso3166CountryCode>
+        <latitude>14.765881538391113</latitude>
+        <longTermImpact>MAIA's organizational goals for Girl Pioneer Graduates: 1. Economic Autonomy-Each graduate will be employed and have annual earnings that exceed the average income in Guatemala. 2. Her Family on Her Terms-graduates will delay marriage and pregnancy until they are at least 25 years old. 3. Lifelong Learning-graduates will achieve an average of 15 years of schooling. 4. Unlocking Leadership Potential-Empowered to empower, Girl Pioneers will pursue leadership positions at all levels of society.</longTermImpact>
+        <longitude>-91.17896270751953</longitude>
+        <modifiedDate>2020-11-24T08:26:31-05:00</modifiedDate>
+        <need>Mayan women in Guatemala average only 4 years of schooling and half are mothers by age 18. The few young women who do manage to enroll in secondary school access a substandard educational system. In 2018, 6% of high school graduates in Solola were considered "proficient" in math and 25% in reading. The handful of girls who manage to access and complete public secondary school often enter a labor market with an education that impedes-rather than supports-their upward trajectory.</need>
+        <numberOfDonations>9</numberOfDonations>
+        <numberOfReports>6</numberOfReports>
+        <organization>
+            <activeProjects>1</activeProjects>
+            <addressLine1>Km. 137, Caserío Xolbé</addressLine1>
+            <addressLine2/>
+            <city>El Tablón</city>
+            <countries>
+                <country>
+                    <iso3166CountryCode>GT</iso3166CountryCode>
+                    <name>Guatemala</name>
+                </country>
+            </countries>
+            <country>Guatemala</country>
+            <id>26702</id>
+            <iso3166CountryCode>GT</iso3166CountryCode>
+            <logoUrl>https://www.globalgiving.org/pfil/organ/26702/orglogo.jpg</logoUrl>
+            <mission>Our mission is to empower women through innovation and opportunity. Our vision is a generation of leaders for a society with equity.</mission>
+            <name>MAIA</name>
+            <postal>6896973-9</postal>
+            <state>Sololá</state>
+            <themes>
+                <theme>
+                    <id>ecdev</id>
+                    <name>Economic Growth</name>
+                </theme>
+                <theme>
+                    <id>edu</id>
+                    <name>Education</name>
+                </theme>
+                <theme>
+                    <id>gender</id>
+                    <name>Gender Equality</name>
+                </theme>
+            </themes>
+            <totalProjects>5</totalProjects>
+            <url>http://www.maiaimpact.org</url>
+        </organization>
+        <progressReportLink>https://www.globalgiving.org/projects/education-empowerment-for-girls-in-guatemala/updates/</progressReportLink>
+        <projectLink>https://www.globalgiving.org/projects/education-empowerment-for-girls-in-guatemala/</projectLink>
+        <region>South/Central America and the Caribbean</region>
+        <remaining>24608.96</remaining>
+        <status>active</status>
+        <summary>The MAIA Impact School provides a holistic education with an equal focus on academics, culture/identity, and personal development for 150 girls (grades 7-9). Creating a generation of empowered female leaders who can lead choice-filled lives and ignite transformational change. The combination of local leadership and deep engagement with families creates an ecosystem of support that meets the unique needs of marginalized indigenous girls in rural Guatemala to create long-term, sustainable impact.</summary>
+        <themeName>Gender Equality</themeName>
+        <themes>
+            <theme>
+                <id>gender</id>
+                <name>Gender Equality</name>
+            </theme>
+            <theme>
+                <id>edu</id>
+                <name>Education</name>
+            </theme>
+        </themes>
+        <title>Education & Empowerment for Girls in Guatemala</title>
+        <type>project</type>
+        <videos>
+            <video>
+                <url>http://www.youtube.com/v/wG90-t_Szm0</url>
+            </video>
+        </videos>
+    </project>
+    <project>
+        <active>true</active>
+        <activities>DANZAREA continues to provide a safe place for children to grow and develop their abilities and skills through contemporary dance, now in a virtual environment. Our focus is to provide our students and their families with food, medicine, and basic needs to cope with the sanitary situation. We continue with our dance program which is an important tool to keep in touch with the children and their families, hoping to return to our aerial lessons as soon as possible.</activities>
+        <additionalDocumentation>https://www.globalgiving.org/pfil/32102/projdoc.pdf</additionalDocumentation>
+        <approvedDate>2018-03-12T00:00:00-04:00</approvedDate>
+        <contactAddress>Av. 6 1/2 B sur y calle Z, Ofidepositos Costa del Este</contactAddress>
+        <contactAddress2>Galera (#4) Xielo</contactAddress2>
+        <contactCity>Panama</contactCity>
+        <contactCountry>Panama</contactCountry>
+        <contactName>Fiorella Macrobio</contactName>
+        <contactPostal>0000</contactPostal>
+        <contactState>Panama</contactState>
+        <contactUrl>http://www.gramodanse.org</contactUrl>
+        <countries>
+            <country>
+                <iso3166CountryCode>PA</iso3166CountryCode>
+                <name>Panama</name>
+            </country>
+        </countries>
+        <country>Panama</country>
+        <dateOfMostRecentReport>2020-08-31T12:25:58-04:00</dateOfMostRecentReport>
+        <donationOptions>
+            <donationOption>
+                <amount>15</amount>
+                <description>provide annual insurance and medical expenses for one child or teacher</description>
+            </donationOption>
+            <donationOption>
+                <amount>25</amount>
+                <description>provide monthly psychological support for one child</description>
+            </donationOption>
+            <donationOption>
+                <amount>40</amount>
+                <description>provide monthly internet connection for one child or teacher</description>
+            </donationOption>
+            <donationOption>
+                <amount>60</amount>
+                <description>4 hours/month of virtual academic tutoring for a group</description>
+            </donationOption>
+            <donationOption>
+                <amount>75</amount>
+                <description>provide one electronic device for one teacher or child</description>
+            </donationOption>
+            <donationOption>
+                <amount>150</amount>
+                <description>provide food for one family, for a whole month</description>
+            </donationOption>
+            <donationOption>
+                <amount>600</amount>
+                <description>will cover a full year scholarship for one child</description>
+            </donationOption>
+        </donationOptions>
+        <funding>23542.94</funding>
+        <goal>50000.00</goal>
+        <id>32102</id>
+        <image id="0">
+            <imagelink size="small">
+                <url>https://www.globalgiving.org/pfil/32102/pict_grid1.jpg</url>
+            </imagelink>
+            <imagelink size="thumbnail">
+                <url>https://www.globalgiving.org/pfil/32102/pict_thumbnail.jpg</url>
+            </imagelink>
+            <imagelink size="medium">
+                <url>https://www.globalgiving.org/pfil/32102/pict_med.jpg</url>
+            </imagelink>
+            <imagelink size="large">
+                <url>https://www.globalgiving.org/pfil/32102/pict_grid7.jpg</url>
+            </imagelink>
+            <imagelink size="extraLarge">
+                <url>https://www.globalgiving.org/pfil/32102/pict_large.jpg</url>
+            </imagelink>
+            <imagelink size="original">
+                <url>https://www.globalgiving.org/pfil/32102/pict_original.jpg</url>
+            </imagelink>
+            <title>Educate and empower at risk children through dance</title>
+        </image>
+        <imageGallerySize>8</imageGallerySize>
+        <imageLink>https://www.globalgiving.org/pfil/32102/pict.jpg</imageLink>
+        <iso3166CountryCode>PA</iso3166CountryCode>
+        <latitude>9.01435661315918</latitude>
+        <longTermImpact>This project which started in 2008 has already benefited thousands of children and teenagers from at-risk communities in Panama City, instilling love for art and culture. DANZAREA will contribute to the comprehensive education of the children with the goal that they remain in the project until they complete their high school education. They will be encouraged to finish school, continue with university studies, and become young adults that will sustain a job and finally break their poverty cycle.</longTermImpact>
+        <longitude>-79.48635864257812</longitude>
+        <modifiedDate>2020-11-24T08:26:31-05:00</modifiedDate>
+        <need>1 out of every 4 children in Panama live in poverty. The public education system is deficient and lacks culture as a part of children's integral education. As a result, generations of young Panamanians remain in poverty, surrounded by violence, lack of values, respect, integrity and work ethics. The COVID-19 worsened the condition for our beneficiaries and their families. This situation has made us shift our primary focus from dance to providing humanitarian assistance.</need>
+        <numberOfDonations>146</numberOfDonations>
+        <numberOfReports>11</numberOfReports>
+        <organization>
+            <activeProjects>1</activeProjects>
+            <addressLine1>Av. 6 1/2 B sur y calle Z, Ofidepositos Costa del Este</addressLine1>
+            <addressLine2>Galera (#4) Xielo</addressLine2>
+            <city>Panama</city>
+            <countries>
+                <country>
+                    <iso3166CountryCode>PA</iso3166CountryCode>
+                    <name>Panama</name>
+                </country>
+            </countries>
+            <country>Panama</country>
+            <id>47617</id>
+            <iso3166CountryCode>PA</iso3166CountryCode>
+            <logoUrl>https://www.globalgiving.org/pfil/organ/47617/orglogo.jpg</logoUrl>
+            <mission>We are an organization that cultivates love for dance and the arts; we promote innovation, art appreciation and the development of children and adults through culture.</mission>
+            <name>Fundacion Gramo Danse</name>
+            <postal>0000</postal>
+            <state/>
+            <themes>
+                <theme>
+                    <id>children</id>
+                    <name>Child Protection</name>
+                </theme>
+                <theme>
+                    <id>edu</id>
+                    <name>Education</name>
+                </theme>
+                <theme>
+                    <id>art</id>
+                    <name>Arts and Culture</name>
+                </theme>
+            </themes>
+            <totalProjects>3</totalProjects>
+            <url>http://www.gramodanse.org</url>
+        </organization>
+        <progressReportLink>https://www.globalgiving.org/projects/virtual-dance-education-for-at-risk-children-panama/updates/</progressReportLink>
+        <projectLink>https://www.globalgiving.org/projects/virtual-dance-education-for-at-risk-children-panama/</projectLink>
+        <region>South/Central America and the Caribbean</region>
+        <remaining>26457.06</remaining>
+        <status>active</status>
+        <summary>DANZAREA has become a virtual dance and education project which gives at-risk children and teenagers in Panama the opportunity to learn (from home) contemporary dance, and enjoy the benefits of practicing dance in their mental and physical health. We supply their basic needs of food and medicine, while helping our students and their families to thrive regardless the extreme situation they live in their communities at the present time.</summary>
+        <themeName>Education</themeName>
+        <themes>
+            <theme>
+                <id>edu</id>
+                <name>Education</name>
+            </theme>
+            <theme>
+                <id>art</id>
+                <name>Arts and Culture</name>
+            </theme>
+        </themes>
+        <title>Educate and empower at risk children through dance</title>
+        <type>project</type>
+        <videos>
+            <video>
+                <url>http://www.youtube.com/v/yhanfSpei2k</url>
+            </video>
+        </videos>
+    </project>
+    <project>
+        <active>true</active>
+        <activities>Yet, essentials like medication, enteral nutrition, consumables for the tracheostomy, diapers, physiotherapy and others put together exceed the average income greatly. And then there is still rent to pay, food to buy and other children to provide for. In most countries, such families receive regular support, which includes all of the above and more - like palliative care nurse assigned to them or the super expensive personal air-support system. In Russia only you can help these families.</activities>
+        <approvedDate>2015-08-10T14:21:25-04:00</approvedDate>
+        <contactAddress>2-nd Nikoloschepkovskyi pereulok bld 4</contactAddress>
+        <contactCity>Moscow</contactCity>
+        <contactCountry>Russia</contactCountry>
+        <contactName>Maria Bakhtina</contactName>
+        <contactPostal>121099</contactPostal>
+        <contactState>Moscow</contactState>
+        <contactUrl>http://www.hospicefund.ru</contactUrl>
+        <countries>
+            <country>
+                <iso3166CountryCode>RU</iso3166CountryCode>
+                <name>Russia</name>
+            </country>
+        </countries>
+        <country>Russia</country>
+        <dateOfMostRecentReport>2020-11-16T14:07:22-05:00</dateOfMostRecentReport>
+        <donationOptions>
+            <donationOption>
+                <amount>10</amount>
+                <description>will buy a holiday gift for a terminally ill child</description>
+            </donationOption>
+            <donationOption>
+                <amount>25</amount>
+                <description>can provide for 1 medical massage session</description>
+            </donationOption>
+            <donationOption>
+                <amount>60</amount>
+                <description>a weeks' supply of diapers and disposable care items for a child</description>
+            </donationOption>
+            <donationOption>
+                <amount>90</amount>
+                <description>2 weeks' supply of medication for a child</description>
+            </donationOption>
+            <donationOption>
+                <amount>180</amount>
+                <description>monthly supply of medication for a child</description>
+            </donationOption>
+            <donationOption>
+                <amount>220</amount>
+                <description>monthly supply of consumables for tracheostomy</description>
+            </donationOption>
+            <donationOption>
+                <amount>500</amount>
+                <description>professional nursing services for 1 months</description>
+            </donationOption>
+            <donationOption>
+                <amount>1000</amount>
+                <description>will cover for a family's childcare needs for 1 month</description>
+            </donationOption>
+        </donationOptions>
+        <funding>21839.60</funding>
+        <goal>39062.00</goal>
+        <id>21189</id>
+        <image id="0">
+            <imagelink size="small">
+                <url>https://www.globalgiving.org/pfil/21189/pict_grid1.jpg</url>
+            </imagelink>
+            <imagelink size="thumbnail">
+                <url>https://www.globalgiving.org/pfil/21189/pict_thumbnail.jpg</url>
+            </imagelink>
+            <imagelink size="medium">
+                <url>https://www.globalgiving.org/pfil/21189/pict_med.jpg</url>
+            </imagelink>
+            <imagelink size="large">
+                <url>https://www.globalgiving.org/pfil/21189/pict_grid7.jpg</url>
+            </imagelink>
+            <imagelink size="extraLarge">
+                <url>https://www.globalgiving.org/pfil/21189/pict_large.jpg</url>
+            </imagelink>
+            <imagelink size="original">
+                <url>https://www.globalgiving.org/pfil/21189/pict_original.jpg</url>
+            </imagelink>
+            <title>Support 169 families with terminally ill children</title>
+        </image>
+        <imageGallerySize>4</imageGallerySize>
+        <imageLink>https://www.globalgiving.org/pfil/21189/pict.jpg</imageLink>
+        <iso3166CountryCode>RU</iso3166CountryCode>
+        <longTermImpact>Vera Fund currently supports with 169 families from all over Russia, who need financial aid to be able to pay for the essential items. We support families who: - have a child with documented medical history, incurable and in need of palliative care (some genetic conditions, last stage cancer, etc); - are actively involved into the care process and reasonable in their requests; - do not have an income that allows them to cover both the ill child's needs and everyday living expenses.</longTermImpact>
+        <modifiedDate>2020-11-24T08:26:31-05:00</modifiedDate>
+        <need>While essential care products, medication and equipment for in-bed patients are mostly imported and highly expensive in Russia, terminally ill patients receive very little or no support within current medical system. The burden of providing for a seriously ill child with no support is even heavier on the families from distant regions of the country. With average monthly income of 512$ per citizen, the number would be much lower if we excluded the better-paid Moscow from this estimation.</need>
+        <numberOfDonations>286</numberOfDonations>
+        <numberOfReports>20</numberOfReports>
+        <organization>
+            <activeProjects>2</activeProjects>
+            <addressLine1>10-Dovatora Street</addressLine1>
+            <addressLine2/>
+            <city>Moscow</city>
+            <countries>
+                <country>
+                    <iso3166CountryCode>RU</iso3166CountryCode>
+                    <name>Russia</name>
+                </country>
+            </countries>
+            <country>Russia</country>
+            <id>24863</id>
+            <iso3166CountryCode>RU</iso3166CountryCode>
+            <logoUrl>https://www.globalgiving.org/pfil/organ/24863/orglogo.jpg</logoUrl>
+            <mission>The VERA Hospice Charity Fund is currently Russia's only charity fund that supports hospices, their patients and personnel. We believe that when there is no more hope for cure, there is still hope for a better life, and ways to help one obtain it.</mission>
+            <name>VERA Hospice Charity Fund</name>
+            <postal>119048</postal>
+            <state>Moscow</state>
+            <themes>
+                <theme>
+                    <id>health</id>
+                    <name>Physical Health</name>
+                </theme>
+            </themes>
+            <totalProjects>4</totalProjects>
+            <url>http://www.hospicefund.ru</url>
+        </organization>
+        <progressReportLink>https://www.globalgiving.org/projects/support-38-families-with-terminally-ill-children/updates/</progressReportLink>
+        <projectLink>https://www.globalgiving.org/projects/support-38-families-with-terminally-ill-children/</projectLink>
+        <region>Europe and Russia</region>
+        <remaining>17222.40</remaining>
+        <status>active</status>
+        <summary>Because many palliative care needs are excluded from state healthcare or social programs in Russia, families with terminally ill children are left with no aid. Yet, it requires significant spendings to support a child with a genetic, neurological or other life-limiting condition. An average Russian family cannot afford to pay for what it takes to provide proper palliative care. Vera Hospice Charity fund has been providing these families with essentials for years. We ask you to join us and help.</summary>
+        <themeName>Physical Health</themeName>
+        <themes>
+            <theme>
+                <id>health</id>
+                <name>Physical Health</name>
+            </theme>
+            <theme>
+                <id>mentalhealth</id>
+                <name>Mental Health</name>
+            </theme>
+        </themes>
+        <title>Support 169 families with terminally ill children</title>
+        <type>project</type>
+    </project>
+    <project>
+        <active>true</active>
+        <activities>Initiative for Sound Education, Relationship & Health (ISERH) provides basic textbooks, notebooks, mathematical sets, school supplies, psycho-social supports, and counseling for these teenagers in order to integrate them back to the system. ISERH will sponsor the Senior School Certificate Examination (SSCE) of final year students among them after proving themselves worthy through scoring 75% & above in Aspiring the Best Competition (ABC). We shall provide them leadership and 21st century skills</activities>
+        <approvedDate>2017-09-11T09:00:00-04:00</approvedDate>
+        <contactAddress>2nd Floor, Ambassador Otunla Complex, Opp. Methodist Cathedral, Otapete</contactAddress>
+        <contactCity>Ilesa</contactCity>
+        <contactCountry>Nigeria</contactCountry>
+        <contactName>Abdulahi Abayomi Abdulraheem</contactName>
+        <contactPostal>23401</contactPostal>
+        <contactState>Osun</contactState>
+        <contactUrl>http://www.iserh.org</contactUrl>
+        <countries>
+            <country>
+                <iso3166CountryCode>NG</iso3166CountryCode>
+                <name>Nigeria</name>
+            </country>
+        </countries>
+        <country>Nigeria</country>
+        <dateOfMostRecentReport>2020-10-26T15:02:09-04:00</dateOfMostRecentReport>
+        <donationOptions>
+            <donationOption>
+                <amount>10</amount>
+                <description>gets a teenager 2 textbooks and notebooks</description>
+            </donationOption>
+            <donationOption>
+                <amount>25</amount>
+                <description>get a teenager 2 textbooks, notebooks, a mathematical set, and a school bag</description>
+            </donationOption>
+            <donationOption>
+                <amount>50</amount>
+                <description>pays for a teenager's Senior (high) School Certificate Examination (SSCE)</description>
+            </donationOption>
+            <donationOption>
+                <amount>100</amount>
+                <description>pays for a teenager's Senior (high) School Certificate Examination (SSCE) and Unified Tertiary Matriculation Examination (UTME)</description>
+            </donationOption>
+            <donationOption>
+                <amount>500</amount>
+                <description>pays for 5 teenagers' Senior (high) School Certificate Examination (SSCE) and Unified Tertiary Matriculation Examination (UTME)</description>
+            </donationOption>
+            <donationOption>
+                <amount>1000</amount>
+                <description>pays for 10 teenagers' Senior (high) School Certificate Examination (SSCE) and Unified Tertiary Matriculation Examination (UTME)</description>
+            </donationOption>
+        </donationOptions>
+        <funding>5910.21</funding>
+        <goal>18100.00</goal>
+        <id>29275</id>
+        <image id="0">
+            <imagelink size="small">
+                <url>https://www.globalgiving.org/pfil/29275/pict_grid1.jpg</url>
+            </imagelink>
+            <imagelink size="thumbnail">
+                <url>https://www.globalgiving.org/pfil/29275/pict_thumbnail.jpg</url>
+            </imagelink>
+            <imagelink size="medium">
+                <url>https://www.globalgiving.org/pfil/29275/pict_med.jpg</url>
+            </imagelink>
+            <imagelink size="large">
+                <url>https://www.globalgiving.org/pfil/29275/pict_grid7.jpg</url>
+            </imagelink>
+            <imagelink size="extraLarge">
+                <url>https://www.globalgiving.org/pfil/29275/pict_large.jpg</url>
+            </imagelink>
+            <imagelink size="original">
+                <url>https://www.globalgiving.org/pfil/29275/pict_original.jpg</url>
+            </imagelink>
+            <title>Help 500 Nigerian Teens Go Back to School</title>
+        </image>
+        <imageGallerySize>7</imageGallerySize>
+        <imageLink>https://www.globalgiving.org/pfil/29275/pict.jpg</imageLink>
+        <iso3166CountryCode>NG</iso3166CountryCode>
+        <latitude>7.450135231018066</latitude>
+        <longTermImpact>500 out-of-school teenagers shall be taken back to classroom and provided psycho-social supports to better enhance their studies. Final year students among them shall get scholarship to write his/her Senior School Certificate Examination (SSCE) and/or Unified Tertiary Matriculation Examination (UTME). Through psycho-social support, leadership and entrepreneurial training, they shall be raised as ethical leaders that will grow to end poverty, illiteracy, and poor governance in the state & Nigeria</longTermImpact>
+        <longitude>4.36981201171875</longitude>
+        <modifiedDate>2020-11-24T08:26:31-05:00</modifiedDate>
+        <need>Base on our findings, more than 30,000 teenagers in Osun State are unable to complete and sit for the Senior (High) School Certificate Examinations (SSCE). Majority of them are left to the streets as dropouts, get exposed to cultism, violence and early adolescent parenthood, due to lack of financial and psycho-social supports. Lack of access to school supplies, textbooks, sponsorship for Senior School Certificate Examination (SSCE), psycho-social and leadership supports are major contributors.</need>
+        <numberOfDonations>142</numberOfDonations>
+        <numberOfReports>36</numberOfReports>
+        <organization>
+            <activeProjects>1</activeProjects>
+            <addressLine1>DHL House, Omi Asoro</addressLine1>
+            <addressLine2/>
+            <city>Ilesa</city>
+            <countries>
+                <country>
+                    <iso3166CountryCode>NG</iso3166CountryCode>
+                    <name>Nigeria</name>
+                </country>
+            </countries>
+            <country>Nigeria</country>
+            <id>43026</id>
+            <iso3166CountryCode>NG</iso3166CountryCode>
+            <logoUrl>https://www.globalgiving.org/pfil/organ/43026/orglogo.jpg</logoUrl>
+            <mission>Our mission is to build a literate, peaceful, religiously tolerant and healthy nation through the promotion of sound education, leadership development, relationship strengthening and psycho-social supports.</mission>
+            <name>Initiative for Sound Education, Relationship & Health</name>
+            <postal>23401</postal>
+            <state>Osun</state>
+            <themes>
+                <theme>
+                    <id>children</id>
+                    <name>Child Protection</name>
+                </theme>
+                <theme>
+                    <id>democ</id>
+                    <name>Peace and Reconciliation</name>
+                </theme>
+                <theme>
+                    <id>edu</id>
+                    <name>Education</name>
+                </theme>
+                <theme>
+                    <id>health</id>
+                    <name>Physical Health</name>
+                </theme>
+            </themes>
+            <totalProjects>1</totalProjects>
+            <url>http://www.iserh.org</url>
+        </organization>
+        <progressReportLink>https://www.globalgiving.org/projects/help-500-nigerian-teens-go-back-to-school/updates/</progressReportLink>
+        <projectLink>https://www.globalgiving.org/projects/help-500-nigerian-teens-go-back-to-school/</projectLink>
+        <region>Africa</region>
+        <remaining>12189.79</remaining>
+        <status>active</status>
+        <summary>This project will send 500 Osun (Nigerian) Teenagers back to senior (high) school, provide them 2 textbooks each, notebooks, a mathematical set, a school bag and psycho-social supports. It will also prepare final year students among them for Senior (High) School Certificate Examination (SSCE), pay for the SSCE examinations of outstanding teenagers among them, equip them with 21st century skills, and provide them leadership and entrepreneurship development training.</summary>
+        <themeName>Education</themeName>
+        <themes>
+            <theme>
+                <id>edu</id>
+                <name>Education</name>
+            </theme>
+        </themes>
+        <title>Help 500 Nigerian Teens Go Back to School</title>
+        <type>project</type>
+    </project>
+    <project>
+        <active>true</active>
+        <activities>Amuseum Naturalis at The Old House is a free museum focused entirely on local nature, history, culture and art. It is a place where the stories of St. Martin will be told for the benefit of residents and visitors alike. It will be a valuable resource for schools, youth groups, and the entire local community. Community involvement in the cataloging of collections and development of new exhibits can also provide hands-on learning for students.</activities>
+        <approvedDate>2018-03-12T00:00:00-04:00</approvedDate>
+        <contactAddress>6 Passage des Escargots</contactAddress>
+        <contactCity>Grand Case</contactCity>
+        <contactCountry>France</contactCountry>
+        <contactName>Mark Yokoyama</contactName>
+        <contactPostal>97150</contactPostal>
+        <contactState/>
+        <contactUrl>http://www.lesfruitsdemer.com</contactUrl>
+        <countries>
+            <country>
+                <iso3166CountryCode>FR</iso3166CountryCode>
+                <name>France</name>
+            </country>
+        </countries>
+        <country>France</country>
+        <dateOfMostRecentReport>2020-10-02T10:01:47-04:00</dateOfMostRecentReport>
+        <donationOptions>
+            <donationOption>
+                <amount>10</amount>
+                <description>will buy a bin for safely storing heritage artifacts.</description>
+            </donationOption>
+            <donationOption>
+                <amount>20</amount>
+                <description>will pay for ten native tree seedlings.</description>
+            </donationOption>
+            <donationOption>
+                <amount>50</amount>
+                <description>will buy lumber and hardware for an outdoor exhibit.</description>
+            </donationOption>
+            <donationOption>
+                <amount>100</amount>
+                <description>will add audio to three exhibits.</description>
+            </donationOption>
+            <donationOption>
+                <amount>250</amount>
+                <description>will buy color panels for two exhibits.</description>
+            </donationOption>
+            <donationOption>
+                <amount>500</amount>
+                <description>will add an interactive station.</description>
+            </donationOption>
+            <donationOption>
+                <amount>1000</amount>
+                <description>will buy one set of outdoor interpretive signage.</description>
+            </donationOption>
+        </donationOptions>
+        <funding>17625.71</funding>
+        <goal>20000.00</goal>
+        <id>31940</id>
+        <image id="0">
+            <imagelink size="small">
+                <url>https://www.globalgiving.org/pfil/31940/pict_grid1.jpg</url>
+            </imagelink>
+            <imagelink size="thumbnail">
+                <url>https://www.globalgiving.org/pfil/31940/pict_thumbnail.jpg</url>
+            </imagelink>
+            <imagelink size="medium">
+                <url>https://www.globalgiving.org/pfil/31940/pict_med.jpg</url>
+            </imagelink>
+            <imagelink size="large">
+                <url>https://www.globalgiving.org/pfil/31940/pict_grid7.jpg</url>
+            </imagelink>
+            <imagelink size="extraLarge">
+                <url>https://www.globalgiving.org/pfil/31940/pict_large.jpg</url>
+            </imagelink>
+            <imagelink size="original">
+                <url>https://www.globalgiving.org/pfil/31940/pict_original.jpg</url>
+            </imagelink>
+            <title>A museum to tell the story of St. Martin</title>
+        </image>
+        <imageGallerySize>9</imageGallerySize>
+        <imageLink>https://www.globalgiving.org/pfil/31940/pict.jpg</imageLink>
+        <iso3166CountryCode>FR</iso3166CountryCode>
+        <latitude>18.080305099487305</latitude>
+        <longTermImpact>Amuseum Naturalis at The Old House will change attitudes about nature and heritage on the island, creating interest in environmental protection, cultural preservation and sustainable development. It will open the doorway to the study of science and history for local youth, and will provide an alternative path for the island's primary industry, tourism.</longTermImpact>
+        <longitude>-63.026466369628906</longitude>
+        <modifiedDate>2020-11-24T08:26:31-05:00</modifiedDate>
+        <need>There is almost no access to education about local wildlife, history and culture on St. Martin. Most school curriculum is French, Dutch or North American. There is no museum on the French side of the island. After the devastation of Hurricane Irma, the island is in need of educational experiences more than ever. The school system is under stress, many school buildings were damaged, and many teachers left.</need>
+        <numberOfDonations>172</numberOfDonations>
+        <numberOfReports>10</numberOfReports>
+        <organization>
+            <activeProjects>1</activeProjects>
+            <addressLine1>6 Passage des Escargots</addressLine1>
+            <addressLine2/>
+            <city>Grand Case</city>
+            <countries>
+                <country>
+                    <iso3166CountryCode>AI</iso3166CountryCode>
+                    <name>Anguilla</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>GP</iso3166CountryCode>
+                    <name>Guadeloupe</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>AN</iso3166CountryCode>
+                    <name>Netherlands Antilles</name>
+                </country>
+                <country>
+                    <iso3166CountryCode>SX</iso3166CountryCode>
+                    <name>Sint Maarten</name>
+                </country>
+            </countries>
+            <country>France</country>
+            <id>46819</id>
+            <iso3166CountryCode>FR</iso3166CountryCode>
+            <logoUrl>https://www.globalgiving.org/pfil/organ/46819/orglogo.jpg</logoUrl>
+            <mission>Our mission is to study and share the unique nature and heritage of St. Martin and the Caribbean. We create books, films, events and exhibits that showcase wildlife and heritage.</mission>
+            <name>Les Fruits de Mer</name>
+            <postal>97150</postal>
+            <state/>
+            <themes>
+                <theme>
+                    <id>animals</id>
+                    <name>Animal Welfare</name>
+                </theme>
+                <theme>
+                    <id>edu</id>
+                    <name>Education</name>
+                </theme>
+                <theme>
+                    <id>env</id>
+                    <name>Ecosystem Restoration</name>
+                </theme>
+                <theme>
+                    <id>art</id>
+                    <name>Arts and Culture</name>
+                </theme>
+            </themes>
+            <totalProjects>1</totalProjects>
+            <url>http://www.lesfruitsdemer.com</url>
+        </organization>
+        <progressReportLink>https://www.globalgiving.org/projects/amuseum-naturalis/updates/</progressReportLink>
+        <projectLink>https://www.globalgiving.org/projects/amuseum-naturalis/</projectLink>
+        <region>Europe and Russia</region>
+        <remaining>2374.29</remaining>
+        <status>active</status>
+        <summary>The building that housed St. Martin's first natural history museum was destroyed, but we're creating a new one! Amuseum Naturalis at The Old House will be a museum for local nature and heritage, and a space for community projects. During the first half of 2018, we will be repairing the buildings in our new location, cataloging our historical collection, preparing our exhibits and launching community projects like our native plants nursery which will distribute native tree seedlings for free.</summary>
+        <themeName>Education</themeName>
+        <themes>
+            <theme>
+                <id>edu</id>
+                <name>Education</name>
+            </theme>
+            <theme>
+                <id>climate</id>
+                <name>Climate Action</name>
+            </theme>
+            <theme>
+                <id>env</id>
+                <name>Ecosystem Restoration</name>
+            </theme>
+            <theme>
+                <id>art</id>
+                <name>Arts and Culture</name>
+            </theme>
+        </themes>
+        <title>A museum to tell the story of St. Martin</title>
+        <type>project</type>
+        <videos>
+            <video>
+                <url>http://www.youtube.com/v/4RBZ3RlztW0</url>
+            </video>
+        </videos>
+    </project>
+    <project>
+        <active>true</active>
+        <activities>ELIL offers legal information and assistance to refugees on Lesvos and Samos, including unaccompanied children. However, in the recent fire that destroyed Moria camp, ELIL's field offices burned down. Over the coming weeks, we aim to rebuild our capacity on Lesvos and carry on our work on Samos. This will ensure that, in these challenging circumstances, refugees will continue to have meaningful access to legal assistance, enabling them to navigate the asylum process quickly and fairly.</activities>
+        <approvedDate>2020-03-09T08:59:11-04:00</approvedDate>
+        <contactAddress>European Lawyers in Lesvos gGmbH</contactAddress>
+        <contactAddress2>Littenstrasse 11</contactAddress2>
+        <contactCity>Berlin</contactCity>
+        <contactCountry>Germany</contactCountry>
+        <contactName>Clara Marshall</contactName>
+        <contactPostal>D-10179</contactPostal>
+        <contactState/>
+        <contactUrl>https://www.europeanlawyersinlesvos.eu/</contactUrl>
+        <countries>
+            <country>
+                <iso3166CountryCode>GR</iso3166CountryCode>
+                <name>Greece</name>
+            </country>
+        </countries>
+        <country>Greece</country>
+        <dateOfMostRecentReport>2020-11-03T11:38:41-05:00</dateOfMostRecentReport>
+        <donationOptions>
+            <donationOption>
+                <amount>50</amount>
+                <description>Provides family reunification assistance for one child.</description>
+            </donationOption>
+            <donationOption>
+                <amount>110</amount>
+                <description>Enables legal assistance for two families of asylum seekers.</description>
+            </donationOption>
+            <donationOption>
+                <amount>276</amount>
+                <description>Offers legal assistance to ten unaccompanied female asylum seekers.</description>
+            </donationOption>
+            <donationOption>
+                <amount>496</amount>
+                <description>Runs Samos operation for one day.</description>
+            </donationOption>
+            <donationOption>
+                <amount>1104</amount>
+                <description>Contributes to rebuilding our consultation space on Lesvos</description>
+            </donationOption>
+        </donationOptions>
+        <funding>17101.21</funding>
+        <goal>59313.00</goal>
+        <id>45412</id>
+        <image id="0">
+            <imagelink size="small">
+                <url>https://www.globalgiving.org/pfil/45412/pict_grid1.jpg</url>
+            </imagelink>
+            <imagelink size="thumbnail">
+                <url>https://www.globalgiving.org/pfil/45412/pict_thumbnail.jpg</url>
+            </imagelink>
+            <imagelink size="medium">
+                <url>https://www.globalgiving.org/pfil/45412/pict_med.jpg</url>
+            </imagelink>
+            <imagelink size="large">
+                <url>https://www.globalgiving.org/pfil/45412/pict_grid7.jpg</url>
+            </imagelink>
+            <imagelink size="extraLarge">
+                <url>https://www.globalgiving.org/pfil/45412/pict_large.jpg</url>
+            </imagelink>
+            <imagelink size="original">
+                <url>https://www.globalgiving.org/pfil/45412/pict_original.jpg</url>
+            </imagelink>
+            <title>Help ELIL Provide Vital Legal Support to Refugees</title>
+        </image>
+        <imageGallerySize>6</imageGallerySize>
+        <imageLink>https://www.globalgiving.org/pfil/45412/pict.jpg</imageLink>
+        <iso3166CountryCode>GR</iso3166CountryCode>
+        <longTermImpact>ELIL has assisted over 11,000 people in the past 4 years and our work demonstrates how important access to legal assistance can be for refugees. Of those we have assisted, 74.5% have been granted asylum, compared to an average of 46.5% in Greece, meaning they are granted protection and do not have to return to face war, violence or persecution in their home country. We have also helped 1,000 people, including 300 unaccompanied children, be reunited with family members elsewhere in Europe.</longTermImpact>
+        <modifiedDate>2020-11-24T08:26:31-05:00</modifiedDate>
+        <need>There are over 20,000 refugees living in camps on Lesvos and Samos, most of whom are women and children. The recent fire in Moria camp on Lesvos, and the Covid-19 outbreaks on both islands, have worsened conditions and limited services even further. Despite this, people's asylum and family reunification procedures are continuing. These are legal procedures and independent, expert assistance is therefore urgently needed to help people through them and, ultimately, enable them to leave the camps.</need>
+        <numberOfDonations>24</numberOfDonations>
+        <numberOfReports>2</numberOfReports>
+        <organization>
+            <activeProjects>1</activeProjects>
+            <addressLine1>European Lawyers in Lesvos gGmbH</addressLine1>
+            <addressLine2>Littenstrae 11</addressLine2>
+            <city>Berlin</city>
+            <countries>
+                <country>
+                    <iso3166CountryCode>GR</iso3166CountryCode>
+                    <name>Greece</name>
+                </country>
+            </countries>
+            <country>Germany</country>
+            <id>73667</id>
+            <iso3166CountryCode>DE</iso3166CountryCode>
+            <logoUrl>https://www.globalgiving.org/pfil/organ/73667/orglogo.jpg</logoUrl>
+            <mission>ELIL aims to ensure that every person on the Greek island of Lesvos who is seeking international protection is able to receive initial legal assistance, at no cost, from an independent European lawyer with experience in asylum law. We provide support in relation to the first instance asylum interview and/or family reunification applications under the Dublin Regulation, as appropriate.</mission>
+            <name>European Lawyers in Lesvos</name>
+            <postal>D-10179</postal>
+            <state/>
+            <themes>
+                <theme>
+                    <id>rights</id>
+                    <name>Justice and Human Rights</name>
+                </theme>
+            </themes>
+            <totalProjects>1</totalProjects>
+            <url>https://www.europeanlawyersinlesvos.eu/</url>
+        </organization>
+        <progressReportLink>https://www.globalgiving.org/projects/help-elil-provide-vital-legal-support-to-refugees/updates/</progressReportLink>
+        <projectLink>https://www.globalgiving.org/projects/help-elil-provide-vital-legal-support-to-refugees/</projectLink>
+        <region>Europe and Russia</region>
+        <remaining>42211.79</remaining>
+        <status>active</status>
+        <summary>ELIL provides free, independent legal assistance to refugees on Lesvos and Samos. Amid fresh challenges faced by the tens of thousands of displaced people on these islands, particularly following the recent devastating fire in Moria camp, meaningful access to justice and legal assistance is more important than ever. Your contribution can help our team uphold the rule of law, defend human rights and guarantee people's right to protection. Donations are tax deductible in the UK and US.</summary>
+        <themeName>Justice and Human Rights</themeName>
+        <themes>
+            <theme>
+                <id>rights</id>
+                <name>Justice and Human Rights</name>
+            </theme>
+            <theme>
+                <id>refugee</id>
+                <name>Refugee Rights</name>
+            </theme>
+        </themes>
+        <title>Help ELIL Provide Vital Legal Support to Refugees</title>
+        <type>project</type>
+    </project>
+</projects>

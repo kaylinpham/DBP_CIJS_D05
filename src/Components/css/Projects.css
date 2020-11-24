@@ -1,6 +1,6 @@
-.books{
+.projects{
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(2, 50%);
     width: 90%;
     margin: auto;
     margin-top: 2rem;

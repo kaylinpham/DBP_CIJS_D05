@@ -7,7 +7,7 @@ class Search extends Component {
   render() {
     return (
       <div className="search">
-        <h1>Book Finder</h1>
+        <h1>Charity Finder</h1>
         <input
           onChange={this.props.onInput}
           onKeyUp={this.props.onEnter}
