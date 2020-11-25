@@ -6,7 +6,7 @@ const url = `https://api.globalgiving.org/api/public/projectservice/featured/pro
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { projects: [] };
+    this.state = { projects: [], title:"" };
     this.getInp = this.getInp.bind(this);
     this.getProjects = this.getProjects.bind(this);
   }
@@ -43,24 +43,41 @@ class App extends Component {
   }
   getProjects(e) {
     e.preventDefault();
-    if (e.keyCode === 13) {
+    if (e.keyCode === 13&&this.state.title) {
       let obj = this;
       let filteredProject = [];
-      obj.state.data.projects.project.map((value) => {
-        if (value['title'].toLowerCase().indexOf(obj.state.title.toLowerCase())!==-1) {
-          filteredProject.push(value);
-        }
-      });
-      let projects = [];
-      console.log(filteredProject);
-      projects.push(<Projects projects={filteredProject} />);
-      obj.setState({ projects: projects });
+      let findingUrl = `https://api.globalgiving.org/api/public/services/search/projects?api_key=1aaaa38d-c00b-4eef-9de1-1bb549698b98&q=${obj.state.title.toLowerCase()}`;
+      fetch(findingUrl, {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+      })
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          if (data.cod === 404 + "") {
+            alert("Error Fetching 😩");
+          } else {
+            obj.setState({ data: data });
+            console.log(data);
+            setTimeout(() => {
+              filteredProject.push(
+                <Projects
+                  projects={obj.state.data.search.response.projects.project}
+                />
+              );
+              obj.setState({ projects: filteredProject,title:"" });
+            }, 0);
+          }
+        });
     }
   }
   render() {
     return (
       <div className="container">
-        <Search onInput={this.getInp} onEnter={this.getProjects} />
+        <Search default={this.state.title} onInput={this.getInp} onEnter={this.getProjects} />
         {this.state.projects}
       </div>
     );

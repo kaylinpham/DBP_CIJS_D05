@@ -13,6 +13,8 @@ class Search extends Component {
           onKeyUp={this.props.onEnter}
           id="search__inp"
           type="text"
+          placeholder="Search for country"
+          value={this.props.default}
         />
       </div>
     );
