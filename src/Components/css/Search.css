@@ -1,0 +1,17 @@
+.search {
+  width: 100%;
+  text-align: center;
+  border-bottom: solid 0.3px rgb(219, 215, 215);;
+}
+.search input {
+  border: none;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  border-radius: 1rem;
+  padding: 0.75rem 1rem;
+  box-sizing: border-box;
+  width: 94%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  outline: none;
+  margin: 1rem auto;
+}

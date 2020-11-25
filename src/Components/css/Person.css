@@ -3,13 +3,14 @@
   flex-flow: row wrap;
   width: 100%;
   padding: 0.5rem;
-  border-bottom: solid 1px rgb(134, 124, 124);
-  padding-bottom: 0;
+  border-bottom: solid 0.3px rgb(219, 215, 215);
   cursor: pointer;
+  box-sizing: border-box;
 }
-.personal:last-child{
-    border: none;
+.personal:last-child {
+  border: none;
 }
-.personal:hover{
-    background-color: rgb(231, 229, 225);
+.personal:hover {
+  background-color: rgb(231, 229, 225);
 }
+

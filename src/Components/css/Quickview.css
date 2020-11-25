@@ -1,8 +1,17 @@
 .quickview{
-    flex-basis: 85%;
+    flex-basis: 82%;
     padding-left: 1rem;
     box-sizing: border-box;
 }
 .quickview b{
     font-size: 1.15rem;
+    font-weight: 500;
+}
+.quickview p{
+    margin-bottom: 0;
+    color: rgb(131, 128, 124);
+    margin-top: 0.5rem;
+}
+.quickview span{
+    font-size: 0.75rem;
 }

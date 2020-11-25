@@ -1,5 +1,7 @@
 .avt{
-    flex-basis: 15%;
+    flex-basis: 18%;
+    display: flex;
+    align-items: center;
 }
 .avt img{
     width: 100%;

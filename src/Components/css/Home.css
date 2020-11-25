@@ -4,13 +4,14 @@
     width: 100vw;
     height: 100vh;
     max-height: 100vh;
-    overflow: hidden;
+    box-sizing: border-box;
 }
 .contacts{
-    flex-basis: 30%;
-    overflow-y: scroll;
+    flex-basis: 28%;
+    height: 100%;
+    box-sizing: border-box;
+    border-right: solid 0.3px rgb(219, 215, 215);
 }
 .individual{
-    background-color: darkseagreen;
-    flex-basis: 70%;
+    flex-basis: 72%;
 }
