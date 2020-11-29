@@ -1,0 +1,38 @@
+.slogan {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  width: 100%;
+  height: 100vh;
+  padding-top: 12%;
+  box-sizing: border-box;
+  flex-basis: 60%;
+}
+.quote {
+  margin-bottom: 5%;
+  margin-top: 2%;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+.title {
+  font-size: 5rem;
+  margin: 0;
+}
+.btns__container {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+.none {
+  display: none;
+}
+.slogan__container {
+  display: flex;
+  flex-direction: row;
+}
+.slogan__container img {
+  display: inline;
+  flex-basis: 40%;
+  height: 100vh;
+  width: 40%;
+}

@@ -1,0 +1,49 @@
+.btn {
+  display: inline;
+  padding: 0.5rem;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: black;
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  border: none;
+  border-radius: 12px;
+  width: 8rem;
+  margin: 0.3rem;
+}
+
+.btn:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+.btn:hover {
+  background-image: linear-gradient(
+    90deg,
+    #00c0ff 0%,
+    #ffcf00 49%,
+    #fc4f4f 80%,
+    #00c0ff 100%
+  );
+  animation: slidebg 5s linear infinite;
+}
+.slogan__btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.6rem;
+    font-size: 1.1rem;
+    width: 8rem;
+    cursor: pointer;
+}
+.slogan__btn:hover {
+    background-image: linear-gradient(
+      90deg,
+      #00c0ff 0%,
+      #ffcf00 49%,
+      #fc4f4f 80%,
+      #00c0ff 100%
+    );
+    animation: slidebg 5s linear infinite;
+    color: black;
+  }

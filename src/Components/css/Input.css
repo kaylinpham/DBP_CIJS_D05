@@ -1,0 +1,19 @@
+.inputs {
+  border: none;
+  background: hsl(0 0% 93%);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  box-sizing: border-box;
+  width: 25rem;
+  padding: 10px;
+  font-size: 1rem;
+  margin-right: 3%;
+  outline: none;
+}
+.input__container {
+  margin: 2% 3%;
+}
+.label__input {
+  display: inline-block;
+  width: 20%;
+}
