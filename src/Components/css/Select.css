@@ -1,0 +1,18 @@
+.selector select {
+  background-color: #5eabeb;
+  border-radius: 1rem;
+  color: white;
+  padding: 6px;
+  width: 8rem;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  text-align: center;
+}
+.selector {
+  width: fit-content;
+  display: inline;
+}
