@@ -67,7 +67,7 @@ class Partner extends Component {
           <p>
             <b>{this.state.partner.Fullname}</b>
           </p>
-          <span>Hoạt động 1 giờ trước</span>
+          <span>Hoạt độnggit  1 giờ trước</span>
         </div>
       </div>
     );
