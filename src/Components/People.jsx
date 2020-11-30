@@ -1,26 +1,15 @@
 import React, { Component } from "react";
 import Person from "./Person";
 import "./css/People.css";
-import Search from "./Search";
 const People = (props) => {
-  return (
-    <div className="people">
-      <Search />
-      <Person />
-      <Person />
-      <Person />
-      <Person />
-      <Person />
-      <Person />
-      <Person />
-      <Person />
-      <Person />
-      <Person />
-      <Person />
-      <Person />
-      <Person />
-    </div>
-  );
+  const data = props.data;
+  let person = [];
+  data.map((value) => {
+    person.push(
+      <Person onActive={props.onActive} owner={props.owner} private={value} />
+    );
+  });
+  return <div className="people">{person}</div>;
 };
 
 export default People;

@@ -1,17 +1,23 @@
-.quickview{
-    flex-basis: 82%;
-    padding-left: 1rem;
-    box-sizing: border-box;
+.quickview {
+  flex-basis: 82%;
+  padding-left: 1rem;
+  box-sizing: border-box;
 }
-.quickview b{
-    font-size: 1.15rem;
-    font-weight: 500;
+.quickview b {
+  font-size: 1.15rem;
+  font-weight: 500;
 }
-.quickview p{
-    margin-bottom: 0;
-    color: rgb(131, 128, 124);
-    margin-top: 0.5rem;
+.quickview p {
+  margin-bottom: 0;
+  color: rgb(131, 128, 124);
+  margin-top: 0.35rem;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  max-height: 1.5rem;
+  overflow: hidden;
+  line-height: 1.8em;
+  display: block;
 }
-.quickview span{
-    font-size: 0.75rem;
+.quickview span {
+  font-size: 0.75rem;
 }

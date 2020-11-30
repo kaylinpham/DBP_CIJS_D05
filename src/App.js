@@ -34,9 +34,6 @@ class App extends Component {
     e.preventDefault();
     let value = e.target.value;
     this.setState({ [e.target.name]: value });
-    setTimeout(() => {
-      console.log(this.state);
-    }, 0);
   }
   login(e) {
     let obj = this;
@@ -56,6 +53,8 @@ class App extends Component {
             sloganState: false,
             signupState: false,
           });
+        } else {
+          alert("Invalid username or password!");
         }
       });
   }

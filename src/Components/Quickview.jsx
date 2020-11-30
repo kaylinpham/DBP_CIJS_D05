@@ -5,11 +5,18 @@ class Quickview extends Component {
     super(props);
   }
   render() {
+    const message = this.props.room.message;
     return (
       <div className="quickview">
-        <b>Pham Ha Giang</b>
-        <p>FPT University HCM</p>
-        <span> 10:09</span>
+        <b>{this.props.data.Fullname}</b>
+        <p>
+          {message[message.length - 1]
+            ? message[message.length - 1]
+            : "Giờ đây các bạn có thể trò chuyện với nhau."}
+        </p>
+        <span>
+          {new Date(this.props.room.modifiedDate.seconds*1000).toLocaleString()}
+        </span>
       </div>
     );
   }

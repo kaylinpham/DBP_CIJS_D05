@@ -7,10 +7,9 @@
   cursor: pointer;
   box-sizing: border-box;
 }
-.personal:last-child {
-  border: none;
-}
 .personal:hover {
   background-color: rgb(231, 229, 225);
 }
-
+.personal:active {
+  background-color: rgb(231, 229, 225);
+}

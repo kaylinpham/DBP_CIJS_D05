@@ -7,9 +7,10 @@
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .10);
 }
 #profile__img {
-  width: 12%;
+  width: 3rem;
   border-radius: 50%;
   margin-right: 0.5rem;
+  height: 3rem;
 }
 #logout_icon{
     width: 2rem;
