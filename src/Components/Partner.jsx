@@ -32,31 +32,6 @@ class Partner extends Component {
         });
     }
   }
-  timeDifference(date1, date2) {
-    let difference = date1.toTimeString() - date2.toTimeString();
-
-    let daysDifference = Math.floor(difference / 1000 / 60 / 60 / 24);
-    difference -= daysDifference * 1000 * 60 * 60 * 24;
-
-    let hoursDifference = Math.floor(difference / 1000 / 60 / 60);
-    difference -= hoursDifference * 1000 * 60 * 60;
-
-    let minutesDifference = Math.floor(difference / 1000 / 60);
-    difference -= minutesDifference * 1000 * 60;
-
-    let secondsDifference = Math.floor(difference / 1000);
-
-    return (
-      daysDifference +
-      " day/s " +
-      hoursDifference +
-      " hour/s " +
-      minutesDifference +
-      " minute/s " +
-      secondsDifference +
-      " second/s "
-    );
-  }
   render() {
     return (
       <div className="partner__profile">
@@ -67,7 +42,7 @@ class Partner extends Component {
           <p>
             <b>{this.state.partner.Fullname}</b>
           </p>
-          <span>Hoạt độnggit  1 giờ trước</span>
+          <span>Hoạt động 1 giờ trước</span>
         </div>
       </div>
     );

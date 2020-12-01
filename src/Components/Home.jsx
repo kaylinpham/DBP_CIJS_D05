@@ -10,7 +10,7 @@ import { db } from "../App";
 class Home extends Component {
   constructor(props) {
     super(props);
-    this.state = { people: [], roomID: "" };
+    this.state = { people: [], roomID: "", document: [] };
     this.onActive = this.onActive.bind(this);
   }
   componentDidMount() {
@@ -18,6 +18,8 @@ class Home extends Component {
     let people = [];
     let partner = [];
     let document = [];
+    let box = [];
+    let mytyping = [];
     db.collection("chatrooms")
       .orderBy("modifiedDate", "desc")
       .get()
@@ -31,11 +33,15 @@ class Home extends Component {
             document.push(data);
           }
         });
-        obj.setState({ roomID: document[0].ID ? document[0].ID : "" });
+        obj.setState({
+          roomID: document[0].ID ? document[0].ID : "",
+          document: document,
+        });
       })
       .then(() => {
         people.push(
           <People
+            roomID={obj.state.roomID}
             onActive={obj.onActive}
             owner={obj.props.data}
             data={document}
@@ -44,13 +50,50 @@ class Home extends Component {
         partner.push(
           <Partner owner={obj.props.data} roomID={this.state.roomID} />
         );
-        obj.setState({ people: people, partner: partner });
+        box.push(<Box owner={obj.props.data} roomID={this.state.roomID} />);
+        mytyping.push(
+          <MyTyping owner={obj.props.data} roomID={this.state.roomID} />
+        );
+        obj.setState({
+          people: people,
+          partner: partner,
+          box: box,
+          mytyping: mytyping,
+        });
       });
   }
   onActive(value) {
-    this.setState({ roomID: value });
+    let partner = [];
+    let people = [];
+    let box = [];
+    let mytyping = [];
+    const obj = this;
+    obj.setState({ roomID: value });
     setTimeout(() => {
-      console.log(this.state.roomID);
+      partner.push(
+        <Partner owner={obj.props.data} roomID={obj.state.roomID} />
+      );
+      box.push(<Box owner={obj.props.data} roomID={this.state.roomID} />);
+      mytyping.push(
+        <MyTyping owner={obj.props.data} roomID={this.state.roomID} />
+      );
+      people.push(
+        <People
+          roomID={obj.state.roomID}
+          onActive={obj.onActive}
+          owner={obj.props.data}
+          data={obj.state.document}
+        />
+      );
+      obj.setState({ partner: [] });
+      setTimeout(() => {
+        obj.setState({
+          partner: partner,
+          people: people,
+          box: box,
+          mytyping: mytyping,
+        });
+      }, 0);
     });
   }
   render() {
@@ -58,14 +101,14 @@ class Home extends Component {
     return (
       <div className="home">
         <div className="contacts">
-          <Profile url={data.Avatar} />
+          <Profile data={data} />
           <Search />
           {this.state.people}
         </div>
         <div className="individual">
           {this.state.partner}
-          <Box owner={data} roomID={this.state.roomID} />
-          <MyTyping owner={data} roomID={this.state.roomID} />
+          {this.state.box}
+          {this.state.mytyping}
         </div>
       </div>
     );

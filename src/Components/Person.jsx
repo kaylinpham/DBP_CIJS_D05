@@ -32,7 +32,7 @@ class Person extends Component {
       <div
         onClick={this.handle}
         id={this.props.private.ID}
-        className="personal"
+        className={this.props.className}
       >
         <Avatar url={this.state.data.Avatar} />
         <Quickview room={this.props.private} data={this.state.data} />

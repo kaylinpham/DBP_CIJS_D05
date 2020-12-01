@@ -6,7 +6,12 @@ const People = (props) => {
   let person = [];
   data.map((value) => {
     person.push(
-      <Person onActive={props.onActive} owner={props.owner} private={value} />
+      <Person
+        className={value.ID === props.roomID ? "personal active" : "personal"}
+        onActive={props.onActive}
+        owner={props.owner}
+        private={value}
+      />
     );
   });
   return <div className="people">{person}</div>;
